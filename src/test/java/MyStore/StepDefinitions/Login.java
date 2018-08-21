@@ -487,7 +487,7 @@ public class Login {
 			Config.listofsuite=scenario.getSourceTagNames();
 			HTMLReportGenerator.TestSuiteStart("D:\\smoke.html", "Test1");
 		}
-		HTMLReportGenerator.TestSuiteStart("D:\\smoke.html", "Sachin");
+		HTMLReportGenerator.TestSuiteStart("F:\\smoke.html", "Amit");
 		HTMLReportGenerator.TestCaseStart(scenario.getName(), scenario.getLines().toString());
 		System.out.println("new scenario is started " + scenario.getName());
 	}
