@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class baseclass {
 	
-	public static WebDriver driver=null;
-	public static WebDriverWait wait=null;
+	public static WebDriver driver= null;
+	public static WebDriverWait wait= null   ;
 
 }
