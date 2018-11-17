@@ -110,7 +110,7 @@ public class Login {
 	@And("^user clicks on Sign in link$")
 	public void SignInLink() throws IOException {
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			loginpageobj.SignInLink.click();
 			String message = "Step:" + (counter++) + " PASSED- user clicks on SignInLink";
 			logger.info(message);
