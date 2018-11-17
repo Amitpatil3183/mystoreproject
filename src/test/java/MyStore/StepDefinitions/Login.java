@@ -88,7 +88,7 @@ public class Login {
 	@Given("^user is on the application login page$")
 	public void LoginPage() throws IOException {
 		try {
-			Thread.sleep(7000);
+			Thread.sleep(6000);
 			loginpageobj = new LoginPage(baseclass.driver);
 			String message = "Step:" + (counter++) + " PASSED- user is on the application login page";
 			logger.info(message);
