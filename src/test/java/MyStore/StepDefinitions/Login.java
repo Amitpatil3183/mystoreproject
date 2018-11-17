@@ -151,7 +151,7 @@ public class Login {
 	@And("^user enters an email address as \"(.*)\"$")
 	public void EnterEmail(String Email) throws IOException {
 		try {
-			Thread.sleep(6050);
+			Thread.sleep(6099);
 			loginpageobj.Create_Account_Email.sendKeys(Email);	
 			String message = "Step:" + (counter++) + " PASSED- user enter " + Email + " as email";
 			logger.info(message);
