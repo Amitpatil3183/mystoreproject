@@ -48,8 +48,7 @@ public class HTMLReportGenerator {
 		else if(Status.equalsIgnoreCase("info"))
 		{		logger.log(LogStatus.INFO,StepName, tbl);}
 		else
-		{logger.log(LogStatus.INFO,StepName, tbl);}
-	
+		{logger.log(LogStatus.INFO,StepName, tbl);}	
 		
 	}
 

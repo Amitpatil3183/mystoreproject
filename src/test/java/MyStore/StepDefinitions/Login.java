@@ -42,13 +42,9 @@ public class Login {
 
                     if (BrowserName.equalsIgnoreCase("firefox")) {
 
-                                    baseclass.driver = new FirefoxDriver();
-
-
-
-                    }
-
-                   
+                    	System.setProperty("webdriver.gecko.driver", "D:\\Users\\SSonawane\\geckoDriver\\geckodriver.exe");
+                    	baseclass.driver = new FirefoxDriver();
+                    }                   
 
                     if (BrowserName.equalsIgnoreCase("chrome")) {
 
@@ -487,7 +483,7 @@ public class Login {
 			Config.listofsuite=scenario.getSourceTagNames();
 			HTMLReportGenerator.TestSuiteStart("D:\\smoke.html", "Test1");
 		}
-		HTMLReportGenerator.TestSuiteStart("F:\\smoke.html", "Amit");
+		HTMLReportGenerator.TestSuiteStart("D:\\smoke.html", "Amit");
 		HTMLReportGenerator.TestCaseStart(scenario.getName(), scenario.getLines().toString());
 		System.out.println("new scenario is started " + scenario.getName());
 	}
