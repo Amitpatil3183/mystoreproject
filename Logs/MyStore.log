@@ -918,3 +918,95 @@ Session ID: dbd97ff6-87de-45a9-ac57-30bce3cb3192
 2019-04-01 20:24:38 INFO  MyAccounts:123 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
 2019-04-01 20:24:42 INFO  MyAccounts:146 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
 2019-04-01 20:24:47 INFO  MyAccounts:172 - Step:7PASSED- user selects Price: Lowest first value
+2019-04-06 22:21:35 INFO  Login:79 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-06 22:21:42 INFO  Login:90 - Step:2 PASSED- user is on the application login page
+2019-04-06 22:21:47 INFO  Login:112 - Step:3 PASSED- user clicks on SignInLink
+2019-04-06 22:21:54 INFO  Login:153 - Step:4 PASSED- user enter testb090@gmail.com as email
+2019-04-06 22:21:55 INFO  Login:133 - Step:5 PASSED- user clicks on Create an account button
+2019-04-06 22:21:58 INFO  Login:180 - Step:6 FAILED- user fails to select title as Mr. 
+Exception Details:Unable to locate element: //input[@id='id_gender1']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Sachin\AppData\Local\Temp\rust_mozprofile.T7weJIAkblvB, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=10.0, moz:processID=13384.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: eb37b565-bfa8-4445-90a0-1c744741835b
+*** Element info: {Using=xpath, value=//input[@id='id_gender1']}
+2019-04-06 22:22:37 INFO  Login:79 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-06 22:22:44 INFO  Login:90 - Step:2 PASSED- user is on the application login page
+2019-04-06 22:22:48 INFO  Login:112 - Step:3 PASSED- user clicks on SignInLink
+2019-04-06 22:22:55 INFO  Login:153 - Step:4 PASSED- user enter testuser04@.com as email
+2019-04-06 22:22:57 INFO  Login:133 - Step:5 PASSED- user clicks on Create an account button
+2019-04-06 22:22:59 INFO  Login:465 - Step:6 PASSED- user gets error message starting with Invalid email address. message above the login frame
+2019-04-06 22:23:18 INFO  Login:79 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-06 22:23:25 INFO  Login:90 - Step:2 PASSED- user is on the application login page
+2019-04-06 22:23:29 INFO  Login:112 - Step:3 PASSED- user clicks on SignInLink
+2019-04-06 22:23:30 INFO  MyAccounts:39 - Step:1PASSED- user enters email id
+2019-04-06 22:23:32 INFO  MyAccounts:60 - Step:2PASSED- user enters password
+2019-04-06 22:23:35 INFO  MyAccounts:81 - Step:3PASSED- user clicks on SignIn Button
+2019-04-06 22:23:37 INFO  MyAccounts:110 - Step:4 FAILED- user failed to click on Dresses Mega Menu
+Exception Details:Could not find webelement key
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Sachin\AppData\Local\Temp\rust_mozprofile.LYDkyKhKwuwW, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0, platformVersion=10.0, moz:processID=9176.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: 052c4e48-4b1e-41f4-a47b-a1fdaff5c1c6
+2019-04-06 22:23:51 INFO  Login:79 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-06 22:23:58 INFO  Login:90 - Step:2 PASSED- user is on the application login page
+2019-04-06 22:24:03 INFO  Login:112 - Step:3 PASSED- user clicks on SignInLink
+2019-04-06 22:24:04 INFO  MyAccounts:39 - Step:1PASSED- user enters email id
+2019-04-06 22:24:05 INFO  MyAccounts:60 - Step:2PASSED- user enters password
+2019-04-06 22:24:09 INFO  MyAccounts:81 - Step:3PASSED- user clicks on SignIn Button
+2019-04-06 22:24:10 INFO  MyAccounts:110 - Step:4 FAILED- user failed to click on Dresses Mega Menu
+Exception Details:Could not find webelement key
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Sachin\AppData\Local\Temp\rust_mozprofile.NSRHTdpnoq0T, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0, platformVersion=10.0, moz:processID=14800.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: 696ac6d9-bf8c-4da7-8044-5659a218aa33
+2019-04-06 22:29:17 INFO  Login:79 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-06 22:29:24 INFO  Login:90 - Step:2 PASSED- user is on the application login page
+2019-04-06 22:29:28 INFO  Login:112 - Step:3 PASSED- user clicks on SignInLink
+2019-04-06 22:29:34 INFO  Login:153 - Step:4 PASSED- user enter testb090@gmail.com as email
+2019-04-06 22:29:36 INFO  Login:133 - Step:5 PASSED- user clicks on Create an account button
+2019-04-06 22:29:38 INFO  Login:180 - Step:6 FAILED- user fails to select title as Mr. 
+Exception Details:Unable to locate element: //input[@id='id_gender1']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Sachin\AppData\Local\Temp\rust_mozprofile.mwuJOw4il2Jy, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0, platformVersion=10.0, moz:processID=15872.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: 7d8c11a8-1966-4409-a5e0-b8f566f9bb76
+*** Element info: {Using=xpath, value=//input[@id='id_gender1']}
+2019-04-06 22:29:52 INFO  Login:79 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-06 22:29:59 INFO  Login:90 - Step:2 PASSED- user is on the application login page
+2019-04-06 22:30:03 INFO  Login:112 - Step:3 PASSED- user clicks on SignInLink
+2019-04-06 22:30:10 INFO  Login:153 - Step:4 PASSED- user enter testuser04@.com as email
+2019-04-06 22:30:11 INFO  Login:133 - Step:5 PASSED- user clicks on Create an account button
+2019-04-06 22:30:13 INFO  Login:465 - Step:6 PASSED- user gets error message starting with Invalid email address. message above the login frame
+2019-04-06 22:30:26 INFO  Login:79 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-06 22:30:33 INFO  Login:90 - Step:2 PASSED- user is on the application login page
+2019-04-06 22:30:37 INFO  Login:112 - Step:3 PASSED- user clicks on SignInLink
+2019-04-06 22:30:39 INFO  MyAccounts:39 - Step:1PASSED- user enters email id
+2019-04-06 22:30:40 INFO  MyAccounts:60 - Step:2PASSED- user enters password
+2019-04-06 22:30:44 INFO  MyAccounts:81 - Step:3PASSED- user clicks on SignIn Button
+2019-04-06 22:30:46 INFO  MyAccounts:110 - Step:4 FAILED- user failed to click on Dresses Mega Menu
+Exception Details:Could not find webelement key
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Sachin\AppData\Local\Temp\rust_mozprofile.fsA7nbGNxzqK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0, platformVersion=10.0, moz:processID=15388.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: 8a436fab-442b-4508-919b-677f54134aeb
+2019-04-06 22:31:00 INFO  Login:79 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-06 22:31:06 INFO  Login:90 - Step:2 PASSED- user is on the application login page
+2019-04-06 22:31:11 INFO  Login:112 - Step:3 PASSED- user clicks on SignInLink
+2019-04-06 22:31:12 INFO  MyAccounts:39 - Step:1PASSED- user enters email id
+2019-04-06 22:31:14 INFO  MyAccounts:60 - Step:2PASSED- user enters password
+2019-04-06 22:31:17 INFO  MyAccounts:81 - Step:3PASSED- user clicks on SignIn Button
+2019-04-06 22:31:18 INFO  MyAccounts:110 - Step:4 FAILED- user failed to click on Dresses Mega Menu
+Exception Details:Could not find webelement key
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Sachin\AppData\Local\Temp\rust_mozprofile.vZxUzD3KKymL, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0, platformVersion=10.0, moz:processID=14908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: 1c7d4162-8031-4404-ad43-7c5d76217b29
