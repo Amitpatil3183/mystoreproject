@@ -9,11 +9,11 @@ Feature: Login Feature
     Given user opens the "firefox" browser
     Given user enters the url "http://automationpractice.com/index.php"
 
-  @SmokeTest
+  @ST
   Scenario: Register a user with Valid email address
     Given user is on the application login page
     And user clicks on Sign in link
-    And user enters an email address as "testb090@gmail.com"
+    And user enters an email address as "testb092@gmail.com"
     And user clicks on Create an account button
     And user selects title as Mr.
     And user enters Customer FirstName as "Amit"
@@ -30,7 +30,7 @@ Feature: Login Feature
     And user clicks on Register button
     Then user lands on the MyAccount page
 
-  @SmokeTest
+  @ST
   Scenario: Register a user with invalid email address
     Given user is on the application login page
     And user clicks on Sign in link

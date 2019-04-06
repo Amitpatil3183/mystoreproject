@@ -98,6 +98,7 @@ public class MyAccounts {
 			Thread.sleep(1000);
 			Actions action = new Actions(baseclass.driver);
 			action.moveToElement(myaccountpageobj.dresses_Menu).build().perform();
+			Thread.sleep(1000);
 			String message = "Step:"+(counter++)+"PASSED- user clicks on Dresses Mega Menu";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "clickOnDressesMegaMenu", message,
