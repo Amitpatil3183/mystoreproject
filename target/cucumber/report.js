@@ -71,7 +71,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters an email address as \"testb090@gmail.com\"",
+  "name": "user enters an email address as \"testb0100@gmail.com\"",
   "keyword": "And "
 });
 formatter.match({
@@ -98,7 +98,7 @@ formatter.match({
   "location": "Login.Title()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat MyStore.StepDefinitions.Login.Title(Login.java:184)\r\n\tat ✽.user selects title as Mr.(src/test/resources/FeatureCollections/Login.feature:18)\r\n",
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat MyStore.StepDefinitions.Login.Title(Login.java:178)\r\n\tat ✽.user selects title as Mr.(src/test/resources/FeatureCollections/Login.feature:18)\r\n",
   "status": "failed"
 });
 formatter.step({
@@ -427,7 +427,7 @@ formatter.match({
   "location": "MyAccounts.clickOnDressesMegaMenu()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat MyStore.StepDefinitions.MyAccounts.clickOnDressesMegaMenu(MyAccounts.java:113)\r\n\tat ✽.user clicks on Dresses mega menu(src/test/resources/FeatureCollections/Login.feature:48)\r\n",
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat MyStore.StepDefinitions.MyAccounts.clickOnDressesMegaMenu(MyAccounts.java:115)\r\n\tat ✽.user clicks on Dresses mega menu(src/test/resources/FeatureCollections/Login.feature:48)\r\n",
   "status": "failed"
 });
 formatter.step({
@@ -485,128 +485,4 @@ formatter.result({
 formatter.step({
   "name": "user enters the url \"http://automationpractice.com/index.php\"",
   "keyword": "Given "
-});
-formatter.match({
-  "location": "Login.OpenBrowser1(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Verify that the Summer Dresses product list is sorted by price",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@MyAccount"
-    },
-    {
-      "name": "@SmokeTest"
-    }
-  ]
-});
-formatter.step({
-  "name": "user is on the application login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Login.LoginPage()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on Sign in link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Login.SignInLink()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "an existing user enters an email address as \"testuser04@gmail.com\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyAccounts.existingUserEmailAddress(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "an existing user enters an password as \"windows@123\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyAccounts.existingUserPassword(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on SignIn button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyAccounts.clickOnSignInButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on Dresses mega menu",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyAccounts.clickOnDressesMegaMenu()"
-});
-formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat MyStore.StepDefinitions.MyAccounts.clickOnDressesMegaMenu(MyAccounts.java:113)\r\n\tat ✽.user clicks on Dresses mega menu(src/test/resources/FeatureCollections/MyAccount.feature:19)\r\n",
-  "status": "failed"
-});
-formatter.step({
-  "name": "user clicks on Summer Dresses mega menu",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyAccounts.clickOnSummerDressesMegaMenu()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "Summer Dresses page opens with text as \"SUMMER DRESSES \"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyAccounts.verifySummerDressesPageOpens(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "user selects Sort by drop down value \"Price: Lowest first\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyAccounts.selectSortByValue(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "user verifies that the products are sorted based on the selected Sort by value",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "MyAccounts.verifyProductSortBasedOnSelectedSortByValue()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "status": "passed"
-});
 });

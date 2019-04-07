@@ -17,7 +17,8 @@ import MyStore.PageObjects.MyAccountsPage;
 import MyStore.config.Config;
 import MyStore.config.HTMLReportGenerator;
 import MyStore.config.TakeScreenShot;
-import MyStore.config.baseclass;
+//import MyStore.config.baseclass;
+import MyStore.config.GeckoConfiguration;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 
@@ -33,19 +34,19 @@ public class MyAccounts {
 	public void existingUserEmailAddress(String emailAddress) throws IOException {
 		try {
 			Thread.sleep(1000);
-			myaccountpageobj=new MyAccountsPage(baseclass.driver);
+			myaccountpageobj=new MyAccountsPage(GeckoConfiguration.driver);
 			myaccountpageobj.email_Address_Text_Box.sendKeys(emailAddress);
 			String message = "Step:"+(counter++)+"PASSED- user enters email id";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "existingUserEmailAddress", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
 			String message = "Step:" + (counter++) + " FAILED- user filed to enter email id\nException Details:"
 					+ ex.getLocalizedMessage();
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "existingUserEmailAddress", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -54,19 +55,19 @@ public class MyAccounts {
 	public void existingUserPassword(String password) throws IOException {
 		try {
 			Thread.sleep(1000);
-			myaccountpageobj=new MyAccountsPage(baseclass.driver);
+			myaccountpageobj=new MyAccountsPage(GeckoConfiguration.driver);
 			myaccountpageobj.password_Text_Box.sendKeys(password);
 			String message = "Step:"+(counter++)+"PASSED- user enters password";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "existingUserPassword", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
 			String message = "Step:" + (counter++) + " FAILED- user filed to enter password\nException Details:"
 					+ ex.getLocalizedMessage();
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "existingUserPassword", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -80,14 +81,14 @@ public class MyAccounts {
 			String message = "Step:"+(counter++)+"PASSED- user clicks on SignIn Button";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "clickOnSignInButton", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
 			String message = "Step:" + (counter++) + " FAILED- user filed click Sign In button\nException Details:"
 					+ ex.getLocalizedMessage();
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "clickOnSignInButton", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -96,13 +97,13 @@ public class MyAccounts {
 	public void clickOnDressesMegaMenu() throws IOException {
 		try {
 			Thread.sleep(1000);
-			Actions action = new Actions(baseclass.driver);
+			Actions action = new Actions(GeckoConfiguration.driver);
 			action.moveToElement(myaccountpageobj.dresses_Menu).build().perform();
 			Thread.sleep(1000);
 			String message = "Step:"+(counter++)+"PASSED- user clicks on Dresses Mega Menu";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "clickOnDressesMegaMenu", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
 			String message = "Step:" + (counter++)
@@ -110,7 +111,7 @@ public class MyAccounts {
 					+ ex.getLocalizedMessage();
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "clickOnDressesMegaMenu", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -123,7 +124,7 @@ public class MyAccounts {
 			String message = "Step:"+(counter++)+"PASSED- user clicks on Summer Dresses Mega Menu";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "clickOnSummerDressesMegaMenu", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
 			String message = "Step:" + (counter++)
@@ -131,7 +132,7 @@ public class MyAccounts {
 					+ ex.getLocalizedMessage();
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "clickOnSummerDressesMegaMenu", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -146,7 +147,7 @@ public class MyAccounts {
 			String message = "Step:"+(counter++)+"PASSED- user clicks on Summer Dresses Mega Menu";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "verifySummerDressesPageOpens", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
 			String message = "Step:" + (counter++)
@@ -154,7 +155,7 @@ public class MyAccounts {
 					+ ex.getLocalizedMessage();
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "verifySummerDressesPageOpens", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -166,19 +167,19 @@ public class MyAccounts {
 			myaccountpageobj.productSortDropDown.sendKeys(sortBy);
 			myaccountpageobj.productSortDropDown.sendKeys(Keys.TAB);
 			org.openqa.selenium.Point coordinates = myaccountpageobj.productSortDropDown.getLocation();
-			Actions action = new Actions(baseclass.driver);
+			Actions action = new Actions(GeckoConfiguration.driver);
 			action.moveToElement(myaccountpageobj.labelProperties).build().perform();
 			Thread.sleep(2000);
 			String message = "Step:" + (counter++) + "PASSED- user selects " + sortBy + " value";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "selectSortByValue", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		} catch (Exception ex) {
 			String message = "Step:" + (counter++) + " FAILED- user failed select the SortBy Value\nException Details:"
 					+ ex.getLocalizedMessage();
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "selectSortByValue", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 
@@ -220,7 +221,7 @@ public class MyAccounts {
 					+ ex.getLocalizedMessage();
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "selectSortByValue", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), baseclass.driver));
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 

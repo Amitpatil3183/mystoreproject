@@ -19,9 +19,11 @@ public class MyAccountsPage {
 		
 	}
 
-	@FindBy(how = How.XPATH, using = "(//div[@id='block_top_menu']//a[@title='Dresses'])[2]")
+	
+	@FindBy(how = How.XPATH, using = "(//a[contains(@title,'Dresses')])[5]")
+//	@FindBy(how = How.XPATH, using = "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[6]/ul[1]/li[2]/a[1]")
 	public WebElement dresses_Menu;
-
+	
 	@FindBy(how = How.XPATH, using = "(//div[@id='block_top_menu']//a[@title='Summer Dresses'])[2]")
 	public WebElement summer_Dresses_Menu;
 
