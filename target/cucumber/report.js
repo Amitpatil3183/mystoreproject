@@ -18,7 +18,7 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "user opens the \"firefox\" browser",
+  "name": "user opens the \"chrome\" browser",
   "keyword": "Given "
 });
 formatter.match({
@@ -71,7 +71,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters an email address as \"testb0100@gmail.com\"",
+  "name": "user enters an email address as \"testb0102@gmail.com\"",
   "keyword": "And "
 });
 formatter.match({
@@ -98,8 +98,7 @@ formatter.match({
   "location": "Login.Title()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat MyStore.StepDefinitions.Login.Title(Login.java:178)\r\n\tat ✽.user selects title as Mr.(src/test/resources/FeatureCollections/Login.feature:18)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters Customer FirstName as \"Amit\"",
@@ -109,7 +108,7 @@ formatter.match({
   "location": "Login.EnterFirstName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters Customer LastName as \"Patil\"",
@@ -119,7 +118,7 @@ formatter.match({
   "location": "Login.EnterLastName(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters Password as \"windows@123\"",
@@ -129,7 +128,7 @@ formatter.match({
   "location": "Login.EnterPassword(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters Company as \"Yahoo\"",
@@ -139,7 +138,7 @@ formatter.match({
   "location": "Login.EnterCompany(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters Address as \"First Lane Narhe\"",
@@ -149,7 +148,7 @@ formatter.match({
   "location": "Login.EnterAddress(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters City as \"Romulus\"",
@@ -159,7 +158,7 @@ formatter.match({
   "location": "Login.Enter_City(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user selects State as \"Alabama\"",
@@ -169,7 +168,7 @@ formatter.match({
   "location": "Login.SelectState(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters ZipCode as \"35006\"",
@@ -179,7 +178,7 @@ formatter.match({
   "location": "Login.Enter_ZipCode(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user selects Country as \"United States\"",
@@ -189,7 +188,7 @@ formatter.match({
   "location": "Login.SelectCountry(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters Mobile as \"9898989898\"",
@@ -199,7 +198,7 @@ formatter.match({
   "location": "Login.Enter_Mobile(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user enters AliasAddress as \"Test Address\"",
@@ -209,7 +208,7 @@ formatter.match({
   "location": "Login.Enter_Alias_Address(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on Register button",
@@ -219,7 +218,7 @@ formatter.match({
   "location": "Login.Register_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "user lands on the MyAccount page",
@@ -229,7 +228,7 @@ formatter.match({
   "location": "Login.MyAccount()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -243,7 +242,7 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "user opens the \"firefox\" browser",
+  "name": "user opens the \"chrome\" browser",
   "keyword": "Given "
 });
 formatter.match({
@@ -337,7 +336,7 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "user opens the \"firefox\" browser",
+  "name": "user opens the \"chrome\" browser",
   "keyword": "Given "
 });
 formatter.match({
@@ -427,8 +426,7 @@ formatter.match({
   "location": "MyAccounts.clickOnDressesMegaMenu()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat MyStore.StepDefinitions.MyAccounts.clickOnDressesMegaMenu(MyAccounts.java:115)\r\n\tat ✽.user clicks on Dresses mega menu(src/test/resources/FeatureCollections/Login.feature:48)\r\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "user clicks on Summer Dresses mega menu",
@@ -438,7 +436,7 @@ formatter.match({
   "location": "MyAccounts.clickOnSummerDressesMegaMenu()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Summer Dresses page opens with text as \"SUMMER DRESSES \"",
@@ -448,7 +446,7 @@ formatter.match({
   "location": "MyAccounts.verifySummerDressesPageOpens(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
@@ -473,7 +471,7 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "user opens the \"Firefox\" browser",
+  "name": "user opens the \"Chrome\" browser",
   "keyword": "Given "
 });
 formatter.match({
@@ -485,4 +483,127 @@ formatter.result({
 formatter.step({
   "name": "user enters the url \"http://automationpractice.com/index.php\"",
   "keyword": "Given "
+});
+formatter.match({
+  "location": "Login.OpenBrowser1(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Verify that the Summer Dresses product list is sorted by price",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@MyAccount"
+    },
+    {
+      "name": "@SmokeTest"
+    }
+  ]
+});
+formatter.step({
+  "name": "user is on the application login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "Login.LoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on Sign in link",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.SignInLink()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "an existing user enters an email address as \"testuser04@gmail.com\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyAccounts.existingUserEmailAddress(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "an existing user enters an password as \"windows@123\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyAccounts.existingUserPassword(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on SignIn button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyAccounts.clickOnSignInButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on Dresses mega menu",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyAccounts.clickOnDressesMegaMenu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on Summer Dresses mega menu",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyAccounts.clickOnSummerDressesMegaMenu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Summer Dresses page opens with text as \"SUMMER DRESSES \"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyAccounts.verifySummerDressesPageOpens(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects Sort by drop down value \"Price: Lowest first\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyAccounts.selectSortByValue(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user verifies that the products are sorted based on the selected Sort by value",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "MyAccounts.verifyProductSortBasedOnSelectedSortByValue()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 });
