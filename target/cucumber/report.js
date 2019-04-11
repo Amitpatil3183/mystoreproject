@@ -71,7 +71,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters an email address as \"testb0102@gmail.com\"",
+  "name": "user enters an email address as \"testb0103@gmail.com\"",
   "keyword": "And "
 });
 formatter.match({

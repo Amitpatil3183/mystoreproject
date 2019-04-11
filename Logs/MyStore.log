@@ -1428,3 +1428,123 @@ System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', 
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{moz:profile=C:\Users\Sachin\AppData\Local\Temp\rust_mozprofile.heqV4Gg0nUDC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=56.0, platformVersion=10.0, moz:processID=16904.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
 Session ID: 0bd12967-107b-418c-b066-e28d6c17d6de
+2019-04-11 20:15:23 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:15:30 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:15:33 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:15:40 INFO  Login:147 - Step:4 PASSED- user enter testb0100@gmail.com as email
+2019-04-11 20:15:41 INFO  Login:127 - Step:5 PASSED- user clicks on Create an account button
+2019-04-11 20:15:44 INFO  Login:174 - Step:6 FAILED- user fails to select title as Mr. 
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 25 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'IP-C613EA08', ip: '172.31.153.150', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:60617}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=D:\Users\SSonawane\AppData\Local\Temp\1\scoped_dir1092_24884}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e82d3ac201172196e7a9206a8d9ec432
+*** Element info: {Using=xpath, value=//input[@id='id_gender1']}
+2019-04-11 20:15:54 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:16:01 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:16:04 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:16:11 INFO  Login:147 - Step:4 PASSED- user enter testuser04@.com as email
+2019-04-11 20:16:13 INFO  Login:127 - Step:5 PASSED- user clicks on Create an account button
+2019-04-11 20:16:15 INFO  Login:459 - Step:6 PASSED- user gets error message starting with Invalid email address. message above the login frame
+2019-04-11 20:16:22 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:16:29 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:16:33 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:16:34 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-04-11 20:16:36 INFO  MyAccounts:61 - Step:2PASSED- user enters password
+2019-04-11 20:16:40 INFO  MyAccounts:82 - Step:3PASSED- user clicks on SignIn Button
+2019-04-11 20:16:42 INFO  MyAccounts:104 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-04-11 20:16:45 INFO  MyAccounts:125 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:16:48 INFO  MyAccounts:148 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:18:52 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:18:59 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:19:05 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:19:11 INFO  Login:147 - Step:4 PASSED- user enter testb0102@gmail.com as email
+2019-04-11 20:19:13 INFO  Login:127 - Step:5 PASSED- user clicks on Create an account button
+2019-04-11 20:19:16 INFO  Login:167 - Step:6 PASSED- user clicks on Title
+2019-04-11 20:19:17 INFO  Login:188 - Step:7 PASSED- user enter Amit as firstname
+2019-04-11 20:19:19 INFO  Login:209 - Step:8 PASSED- user enter Patil as lastname
+2019-04-11 20:19:21 INFO  Login:229 - Step:9 PASSED- user enter windows@123 as password
+2019-04-11 20:19:22 INFO  Login:248 - Step:10 PASSED- user enter Yahoo as company
+2019-04-11 20:19:24 INFO  Login:268 - Step:11 PASSED- user enter First Lane Narhe as address
+2019-04-11 20:19:25 INFO  Login:289 - Step:12 PASSED- user enter Romulus as city
+2019-04-11 20:19:27 INFO  Login:311 - Step:13 PASSED- user selects City as Alabama
+2019-04-11 20:19:27 INFO  Login:330 - Step:14 PASSED- user enter 35006 as zip
+2019-04-11 20:19:29 INFO  Login:353 - Step:15 PASSED- user selects country as United States
+2019-04-11 20:19:31 INFO  Login:373 - Step:16 PASSED- user enter 9898989898 as mobile
+2019-04-11 20:19:32 INFO  Login:393 - Step:17 PASSED- user enter Test Address as aliasadd
+2019-04-11 20:19:37 INFO  Login:414 - Step:18 PASSED- user clicks on Register button
+2019-04-11 20:19:38 INFO  Login:436 - Step:19 PASSED- user is on the MyAccountPage
+2019-04-11 20:19:48 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:19:55 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:19:59 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:20:06 INFO  Login:147 - Step:4 PASSED- user enter testuser04@.com as email
+2019-04-11 20:20:07 INFO  Login:127 - Step:5 PASSED- user clicks on Create an account button
+2019-04-11 20:20:10 INFO  Login:459 - Step:6 PASSED- user gets error message starting with Invalid email address. message above the login frame
+2019-04-11 20:20:19 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:20:26 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:20:29 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:20:31 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-04-11 20:20:33 INFO  MyAccounts:61 - Step:2PASSED- user enters password
+2019-04-11 20:20:37 INFO  MyAccounts:82 - Step:3PASSED- user clicks on SignIn Button
+2019-04-11 20:20:40 INFO  MyAccounts:104 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-04-11 20:20:44 INFO  MyAccounts:125 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:20:46 INFO  MyAccounts:148 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:20:53 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:21:00 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:21:04 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:21:06 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-04-11 20:21:07 INFO  MyAccounts:61 - Step:2PASSED- user enters password
+2019-04-11 20:21:11 INFO  MyAccounts:82 - Step:3PASSED- user clicks on SignIn Button
+2019-04-11 20:21:13 INFO  MyAccounts:104 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-04-11 20:21:16 INFO  MyAccounts:125 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:21:19 INFO  MyAccounts:148 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:21:24 INFO  MyAccounts:174 - Step:7PASSED- user selects Price: Lowest first value
+2019-04-11 20:28:19 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:28:26 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:28:30 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:28:37 INFO  Login:147 - Step:4 PASSED- user enter testb0103@gmail.com as email
+2019-04-11 20:28:38 INFO  Login:127 - Step:5 PASSED- user clicks on Create an account button
+2019-04-11 20:28:41 INFO  Login:167 - Step:6 PASSED- user clicks on Title
+2019-04-11 20:28:42 INFO  Login:188 - Step:7 PASSED- user enter Amit as firstname
+2019-04-11 20:28:44 INFO  Login:209 - Step:8 PASSED- user enter Patil as lastname
+2019-04-11 20:28:45 INFO  Login:229 - Step:9 PASSED- user enter windows@123 as password
+2019-04-11 20:28:47 INFO  Login:248 - Step:10 PASSED- user enter Yahoo as company
+2019-04-11 20:28:48 INFO  Login:268 - Step:11 PASSED- user enter First Lane Narhe as address
+2019-04-11 20:28:50 INFO  Login:289 - Step:12 PASSED- user enter Romulus as city
+2019-04-11 20:28:51 INFO  Login:311 - Step:13 PASSED- user selects City as Alabama
+2019-04-11 20:28:52 INFO  Login:330 - Step:14 PASSED- user enter 35006 as zip
+2019-04-11 20:28:53 INFO  Login:353 - Step:15 PASSED- user selects country as United States
+2019-04-11 20:28:55 INFO  Login:373 - Step:16 PASSED- user enter 9898989898 as mobile
+2019-04-11 20:28:56 INFO  Login:393 - Step:17 PASSED- user enter Test Address as aliasadd
+2019-04-11 20:29:01 INFO  Login:414 - Step:18 PASSED- user clicks on Register button
+2019-04-11 20:29:02 INFO  Login:436 - Step:19 PASSED- user is on the MyAccountPage
+2019-04-11 20:29:10 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:29:17 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:29:21 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:29:28 INFO  Login:147 - Step:4 PASSED- user enter testuser04@.com as email
+2019-04-11 20:29:29 INFO  Login:127 - Step:5 PASSED- user clicks on Create an account button
+2019-04-11 20:29:32 INFO  Login:459 - Step:6 PASSED- user gets error message starting with Invalid email address. message above the login frame
+2019-04-11 20:29:39 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:29:46 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:29:49 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:29:51 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-04-11 20:29:52 INFO  MyAccounts:61 - Step:2PASSED- user enters password
+2019-04-11 20:29:56 INFO  MyAccounts:82 - Step:3PASSED- user clicks on SignIn Button
+2019-04-11 20:29:58 INFO  MyAccounts:104 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-04-11 20:30:01 INFO  MyAccounts:125 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:30:03 INFO  MyAccounts:148 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:30:10 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-11 20:30:17 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-11 20:30:20 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-11 20:30:22 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-04-11 20:30:24 INFO  MyAccounts:61 - Step:2PASSED- user enters password
+2019-04-11 20:30:27 INFO  MyAccounts:82 - Step:3PASSED- user clicks on SignIn Button
+2019-04-11 20:30:29 INFO  MyAccounts:104 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-04-11 20:30:32 INFO  MyAccounts:125 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:30:35 INFO  MyAccounts:148 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-04-11 20:30:39 INFO  MyAccounts:174 - Step:7PASSED- user selects Price: Lowest first value
