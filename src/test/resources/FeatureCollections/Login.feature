@@ -6,7 +6,7 @@
 Feature: Login Feature
 
   Background: user is successfully logged in
-    Given user opens the "chrome" browser
+    Given user opens the "ie" browser
     Given user enters the url "http://automationpractice.com/index.php"
 
   @SmokeTest
