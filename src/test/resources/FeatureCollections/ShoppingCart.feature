@@ -1,7 +1,7 @@
 #Author: Amit Patil
 #Keywords Summary :
-#Feature: List of scenarios for Login feature
-#Date Created: 19/8/2018
+#Feature: List of scenarios for Shopping Cart feature
+#Date Created: 18/4/2019
 @MyAccount
 Feature: Shopping Cart
 
