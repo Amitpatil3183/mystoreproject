@@ -49,6 +49,6 @@ public class MyAccountsPage {
 	public WebElement labelProperties;
 	
 	@FindBy(how = How.XPATH, using = "//a[@title='Log me out']")
-	public WebElement SignOutLink;
+	public WebElement signOff;
 
 }

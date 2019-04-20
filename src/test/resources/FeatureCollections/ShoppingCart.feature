@@ -6,7 +6,7 @@
 Feature: Shopping Cart
 
   Background: user is successfully logged in
-    Given user opens the "chrome" browser
+    Given user opens the "ie" browser
     Given user enters the url "http://automationpractice.com/index.php"
     
    @ST
@@ -22,4 +22,5 @@ Feature: Shopping Cart
     And user clicks on the Printed Summer Dress Item
     And user clicks on the Add to Cart button
     Then A popup message saying "There is 1 item in your cart" is displayed to the user
+    And user signs off
  

@@ -6,7 +6,7 @@
 Feature: My Account Feature
 
   Background: user is successfully logged in
-    Given user opens the "chrome" browser
+    Given user opens the "ie" browser
     Given user enters the url "http://automationpractice.com/index.php"
   
   @ST
@@ -23,3 +23,4 @@ Feature: My Account Feature
     And user selects Sort by drop down value "Price: Lowest first"
     #And user selects Sort by drop down value "Reference: Highest first"
     Then user verifies that the products are sorted based on the selected Sort by value
+    And user signs off

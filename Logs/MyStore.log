@@ -1658,3 +1658,214 @@ Exception Details:null
 2019-04-20 15:55:21 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
 2019-04-20 15:55:31 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
 2019-04-20 15:55:33 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 17:42:51 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 17:42:58 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 17:43:03 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 17:43:10 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 17:43:11 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 17:44:00 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 17:44:08 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 17:44:16 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 17:44:22 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 17:44:24 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 17:45:11 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 17:45:18 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 17:45:23 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 17:45:29 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 17:45:31 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 17:51:10 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 17:51:17 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 17:51:20 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 17:51:20 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:24342/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: fe67d397-b60e-4ba4-8e6f-72b348beb8ab
+2019-04-20 17:51:27 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 17:51:33 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 17:51:36 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 17:51:36 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:48640/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: 0863bf48-f118-499d-a25f-70bf1f07e88c
+2019-04-20 17:51:43 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 17:51:49 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 17:51:52 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 17:51:52 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:48214/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: 534bcb63-790f-4eb2-a15b-22323f675dcc
+2019-04-20 17:53:28 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 17:53:34 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 17:53:37 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 17:53:37 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:40707/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: a2a2032b-a826-42af-aed3-5d69e8204920
+2019-04-20 17:53:44 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 17:53:51 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 17:53:53 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 17:53:53 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:17570/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: 30a7d1ec-519b-4e7a-98fe-7b9b917e37e6
+2019-04-20 17:54:00 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 17:54:07 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 17:54:09 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 17:54:09 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:1091/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: c214a6d6-a41b-45fb-bf09-3d19e59bbe90
+2019-04-20 18:02:58 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:03:04 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:03:06 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:03:06 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:25782/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: a7b0a03e-d0cc-4cd6-84ca-c517e71973a7
+2019-04-20 18:03:12 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:03:18 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:03:20 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:03:20 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:31328/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: 67ae8c24-c513-4370-aebf-5477d9301f7f
+2019-04-20 18:03:26 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:03:32 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:03:34 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:03:34 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:13368/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: 0f3cd517-f5e2-4b18-a082-93538bea52b2
+2019-04-20 18:07:22 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:07:28 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:07:30 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:07:30 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:8130/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: f51f7722-6120-46c4-9c65-8c36282f6f63
+2019-04-20 18:07:36 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:07:42 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:07:44 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:07:44 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:2494/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: 7ca32248-478f-4f95-8abb-0066b80938ec
+2019-04-20 18:07:49 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:07:56 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:07:57 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:07:58 INFO  Login:115 - Step:4FAILED- user is failed to click on Sign In link
+Exception Details:Unable to get browser
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:34828/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: ed53b20e-2d5d-4159-8a9a-3c516a0717d5
+2019-04-20 18:13:16 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:13:22 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:13:27 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:13:34 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 18:13:35 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 18:13:50 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:13:56 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:13:58 INFO  Login:115 - Step:3FAILED- user is failed to click on Sign In link
+Exception Details:Unable to find element with xpath == .//*[@title='Log in to your customer account']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:20605/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: 039a5416-067b-4cd4-be03-8c2a78cf6f44
+*** Element info: {Using=xpath, value=.//*[@title='Log in to your customer account']}
+2019-04-20 18:14:04 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:14:10 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:14:12 INFO  Login:115 - Step:3FAILED- user is failed to click on Sign In link
+Exception Details:Unable to find element with xpath == .//*[@title='Log in to your customer account']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:19582/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: c8851ad6-6dc4-4cc3-9b8d-a5bf616fe43a
+*** Element info: {Using=xpath, value=.//*[@title='Log in to your customer account']}
+2019-04-20 18:26:23 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:26:29 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:26:31 INFO  Login:115 - Step:3FAILED- user is failed to click on Sign In link
+Exception Details:Unable to find element with xpath == .//*[@title='Log in to your customer account']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-7C9JAV7O', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{proxy=Proxy(), acceptInsecureCerts=false, browserVersion=11, se:ieOptions={nativeEvents=true, browserAttachTimeout=0.0, ie.ensureCleanSession=false, elementScrollBehavior=0.0, enablePersistentHover=true, ie.browserCommandLineSwitches=, ie.forceCreateProcessApi=false, requireWindowFocus=false, initialBrowserUrl=http://localhost:46430/, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000.0, ignoreProtectedModeSettings=false}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, browserName=internet explorer, pageLoadStrategy=normal, javascriptEnabled=true, platformName=windows, setWindowRect=true, platform=ANY}]
+Session ID: 80f1c39a-38a7-4788-90a8-a57beab49f1f
+*** Element info: {Using=xpath, value=.//*[@title='Log in to your customer account']}
+2019-04-20 18:26:38 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:26:44 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:28:11 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:28:18 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:28:23 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:28:29 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 18:28:31 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 18:28:37 INFO  MyAccounts:238 - Step:2 PASSED- user successfully signs off
+2019-04-20 18:28:53 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:29:00 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:29:05 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:29:11 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 18:29:13 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 18:29:19 INFO  MyAccounts:238 - Step:2 PASSED- user successfully signs off
+2019-04-20 18:29:33 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:29:39 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:29:44 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:29:50 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 18:29:51 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 18:29:57 INFO  MyAccounts:238 - Step:2 PASSED- user successfully signs off
+2019-04-20 18:31:20 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:31:27 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:31:32 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:31:38 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 18:31:40 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 18:31:46 INFO  MyAccounts:238 - Step:2 PASSED- user successfully signs off
+2019-04-20 18:32:28 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:32:35 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:32:40 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:32:46 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 18:32:48 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 18:32:54 INFO  MyAccounts:238 - Step:2 PASSED- user successfully signs off
+2019-04-20 18:33:35 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 18:33:42 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 18:33:47 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 18:33:54 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 18:33:55 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 18:34:01 INFO  MyAccounts:238 - Step:2 PASSED- user successfully signs off

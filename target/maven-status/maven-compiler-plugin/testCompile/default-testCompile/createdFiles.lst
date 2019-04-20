@@ -1,0 +1,12 @@
+MyStore\config\HTMLReportGenerator.class
+MyStore\config\Config.class
+MyStore\StepDefinitions\FailedScenarios.class
+MyStore\config\TakeScreenShot.class
+MyStore\StepDefinitions\Login.class
+MyStore\config\GeckoConfiguration.class
+MyStore\PageObjects\MyAccountsPage.class
+MyStore\StepDefinitions\RunnerClass.class
+MyStore\StepDefinitions\ShoppingCart.class
+MyStore\StepDefinitions\MyAccounts.class
+MyStore\PageObjects\LoginPage.class
+MyStore\PageObjects\ShoppingCartPage.class
