@@ -6,10 +6,10 @@
 Feature: Login Feature
 
   Background: user is successfully logged in
-    Given user opens the "ie" browser
+    Given user opens the "chrome" browser
     Given user enters the url "http://automationpractice.com/index.php"
 
-  @SmokeTest
+  @ST
   Scenario: Register a user with Valid email address
     Given user is on the application login page
     And user clicks on Sign in link
@@ -30,7 +30,7 @@ Feature: Login Feature
     And user clicks on Register button
     Then user lands on the MyAccount page
 
-  @SmokeTest
+  @ST
   Scenario: Register a user with invalid email address
     Given user is on the application login page
     And user clicks on Sign in link
@@ -38,7 +38,24 @@ Feature: Login Feature
     And user clicks on Create an account button
     Then user receives an errormessage saying "Invalid email address."
 
+
   @SmokeTest
+  Scenario Outline: Login to the application with multiple set of users
+    Given user is on the application login page
+    And user clicks on Sign in link
+    And user enters an "<emailaddress>" and "<password>" on already registered section
+    And user clicks on SignIn button
+    Then user lands on the MyAccount page
+    
+    Examples:
+    
+     | emailaddress         | | password    |
+     | testuser04@gmail.com | | windows@123 |
+     | testuser05@gmail.com | | windows@123 |
+     | testuser06@gmail.com | | windows@123 |
+    
+        
+  @ST
   Scenario: Verify that the Summer Dresses mega menu works
     Given user is on the application login page
     And user clicks on Sign in link

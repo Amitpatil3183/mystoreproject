@@ -90,5 +90,13 @@ WebDriver localdriverobject;
 	@FindBy(how=How.XPATH, using=".//*[@id='create_account_error']")
 	public WebElement invalidEmail_error;
 	
+	@FindBy(how=How.XPATH, using="//input[@id='email']")
+	public WebElement signin_email;
+	
+	@FindBy(how=How.XPATH, using="//p[@class='submit']//span[1]")
+	public WebElement signin_button;
+	
+	
+	
 
 }

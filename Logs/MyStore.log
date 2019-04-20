@@ -1548,3 +1548,113 @@ Session ID: e82d3ac201172196e7a9206a8d9ec432
 2019-04-11 20:30:32 INFO  MyAccounts:125 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
 2019-04-11 20:30:35 INFO  MyAccounts:148 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
 2019-04-11 20:30:39 INFO  MyAccounts:174 - Step:7PASSED- user selects Price: Lowest first value
+2019-04-20 11:26:49 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 11:27:00 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-20 11:27:12 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 11:27:19 INFO  Login:147 - Step:4 PASSED- user enter <email> as email
+2019-04-20 11:27:21 INFO  MyAccounts:61 - Step:1PASSED- user enters password
+2019-04-20 11:27:25 INFO  Login:106 - Step:5 PASSED- user clicks on SignInLink
+2019-04-20 11:27:27 INFO  Login:436 - Step:6 PASSED- user is on the MyAccountPage
+2019-04-20 11:46:42 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 11:46:49 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-20 11:46:55 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 11:47:02 INFO  Login:479 - Step:4 PASSED- user enter <email> as email
+2019-04-20 11:48:00 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 11:48:07 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-20 11:48:13 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 11:48:21 INFO  Login:479 - Step:4 PASSED- user enter <email> as email
+2019-04-20 11:49:29 INFO  Login:73 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 11:49:35 INFO  Login:84 - Step:2 PASSED- user is on the application login page
+2019-04-20 11:49:41 INFO  Login:106 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 11:49:48 INFO  Login:479 - Step:4 PASSED- user enter <email> as email
+2019-04-20 12:40:24 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 12:40:31 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 12:40:36 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 12:41:26 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 12:41:33 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 12:41:40 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 12:42:27 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 12:42:33 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 12:42:41 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 12:45:34 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 12:45:40 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 12:45:47 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 13:01:30 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 13:01:39 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 13:01:45 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 13:02:44 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 13:10:04 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 13:10:11 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 13:10:16 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 13:10:20 INFO  MyAccounts:89 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 14:08:12 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 14:08:22 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 14:08:29 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 14:08:35 INFO  MyAccounts:89 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 14:37:37 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 14:37:48 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 14:37:56 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 14:38:01 INFO  MyAccounts:89 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 14:44:17 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 14:44:25 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 14:44:31 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 14:44:35 INFO  MyAccounts:90 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 14:45:51 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 14:45:58 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 14:46:07 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 14:46:11 INFO  MyAccounts:90 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 14:49:25 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 14:49:33 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 14:49:41 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 14:49:44 INFO  MyAccounts:90 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 15:16:15 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 15:16:23 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 15:16:29 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 15:16:33 INFO  MyAccounts:90 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 15:17:43 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 15:17:50 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 15:17:57 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 15:18:03 INFO  MyAccounts:90 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 15:33:27 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 15:33:34 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 15:33:41 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 15:33:46 INFO  MyAccounts:90 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 15:35:05 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 15:35:13 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 15:35:19 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 15:35:23 INFO  MyAccounts:90 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 15:38:39 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 15:38:49 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 15:38:59 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 15:39:02 INFO  MyAccounts:90 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 15:41:36 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 15:41:44 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 15:41:50 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 15:42:40 INFO  MyAccounts:90 - Step:1 FAILED- user filed click Sign In button
+Exception Details:null
+2019-04-20 15:52:25 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 15:52:33 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 15:52:39 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 15:52:47 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 15:52:49 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 15:53:52 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 15:53:59 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 15:54:04 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 15:54:11 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 15:54:12 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-04-20 15:55:08 INFO  Login:76 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-04-20 15:55:15 INFO  Login:87 - Step:2 PASSED- user is on the application login page
+2019-04-20 15:55:21 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
+2019-04-20 15:55:31 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
+2019-04-20 15:55:33 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage

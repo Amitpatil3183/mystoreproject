@@ -47,5 +47,8 @@ public class MyAccountsPage {
 
 	@FindBy(how = How.XPATH, using = "//span[text()='Properties']")
 	public WebElement labelProperties;
+	
+	@FindBy(how = How.XPATH, using = "//a[@title='Log me out']")
+	public WebElement SignOutLink;
 
 }

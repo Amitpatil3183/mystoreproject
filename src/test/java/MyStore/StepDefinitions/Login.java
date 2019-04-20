@@ -2,6 +2,8 @@ package MyStore.StepDefinitions;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -22,6 +24,7 @@ import MyStore.config.HTMLReportGenerator;
 import MyStore.config.TakeScreenShot;
 //import MyStore.config.baseclass;
 import MyStore.config.GeckoConfiguration;
+import cucumber.api.DataTable;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -470,6 +473,34 @@ public class Login {
 		}
 	}
 
+	@And("^user enters an \"(.*)\" and \"(.*)\" on already registered section$")
+	public void EnterUsrnameandPassword(String  emailaddress, String  password) throws IOException {
+		try {
+			Thread.sleep(1000);
+			//for (Map<String, String> data : credentials.asMaps(String.class, String.class)) {
+									
+			//loginpageobj.signin_email.sendKeys(data.get("emailaddress"));
+			//loginpageobj.password.sendKeys(data.get("password"));
+			
+			loginpageobj.signin_email.sendKeys(emailaddress);
+			loginpageobj.password.sendKeys(password);
+			
+		}
+		
+		catch (Exception e) {
+			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "Email"
+					+ e.getLocalizedMessage();
+			logger.info(message);
+			HTMLReportGenerator.StepDetails("PASS", "EnterEmail", message,
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			Assert.assertTrue(false);
+		}
+	
+	
+	}
+	
+	
+		
 	@Before()
 	public void BeforeEveryScenario(Scenario scenario) throws UnknownHostException{
 		counter = 1;

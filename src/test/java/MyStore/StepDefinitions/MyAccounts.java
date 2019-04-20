@@ -77,7 +77,9 @@ public class MyAccounts {
 	public void clickOnSignInButton() throws IOException {
 		try {
 			Thread.sleep(1000);
+			myaccountpageobj=new MyAccountsPage(GeckoConfiguration.driver);
 			myaccountpageobj.signIn_Button.click();
+			//loginpageobj.signin_button.click();
 			String message = "Step:"+(counter++)+"PASSED- user clicks on SignIn Button";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "clickOnSignInButton", message,

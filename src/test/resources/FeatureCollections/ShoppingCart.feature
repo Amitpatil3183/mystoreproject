@@ -9,7 +9,7 @@ Feature: Shopping Cart
     Given user opens the "chrome" browser
     Given user enters the url "http://automationpractice.com/index.php"
     
-   @SmokeTest
+   @ST
   Scenario: Verify if user can add Items to the cart
     Given user is on the application login page
     And user clicks on Sign in link
@@ -21,4 +21,5 @@ Feature: Shopping Cart
     And Summer Dresses page opens with text as "SUMMER DRESSES "
     And user clicks on the Printed Summer Dress Item
     And user clicks on the Add to Cart button
-    Then There is 1 item in your cart popup message is displayed to the user
+    Then A popup message saying "There is 1 item in your cart" is displayed to the user
+ 

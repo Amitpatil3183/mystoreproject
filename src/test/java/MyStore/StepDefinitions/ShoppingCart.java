@@ -72,14 +72,17 @@ public class ShoppingCart {
 		}
 
 		
-		@Then("^There is 1 item in your cart popup message is displayed to the user$")
-		public void VerifyItemAddPopup() throws IOException {
+		@Then("^A popup message saying \"(.*)\" is displayed to the user$")
+		public void VerifyItemAddPopup(String expectedpopupmessage) throws IOException {
 			
 			try {
 				Thread.sleep(1000);
-				String Alert = GeckoConfiguration.driver.switchTo().alert().getText();
+				String actualpopupmessage = GeckoConfiguration.driver.switchTo().alert().getText();
 				String message = "Step:"+(counter++)+"PASSED- user clicks on Add to Cart buttom";
+				System.out.println(actualpopupmessage);
 				logger.info(message);
+				Thread.sleep(1000);
+			    Assert.assertEquals(expectedpopupmessage, actualpopupmessage);
 				HTMLReportGenerator.StepDetails("PASS", "VerifyItemAddPopup", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			}
 			catch(Exception ex) {

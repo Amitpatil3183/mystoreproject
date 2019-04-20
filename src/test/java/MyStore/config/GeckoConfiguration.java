@@ -10,9 +10,9 @@ public class GeckoConfiguration {
 	public static WebDriver driver=null;
 	public static WebDriverWait wait =null;
 	public static WebDriver Geckotest(String DriverType){
-		if(DriverType.equalsIgnoreCase("Chrome"))
+		if(DriverType.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\SeleniumResources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\TestLibs\\chromedriver.exe");
 			driver = new ChromeDriver();
 			}
 		
