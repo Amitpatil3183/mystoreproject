@@ -228,25 +228,5 @@ public class MyAccounts {
 		}
 
 	}
-	
-	@And("^user signs off$")
-	public void userSignOff() throws IOException {
-		try {
-			Thread.sleep(2000);
-			myaccountpageobj.signOff.click();
-			String _message = "Step:" + (counter++) + " PASSED- user successfully signs off";
-			logger.info(_message);
-			HTMLReportGenerator.StepDetails("PASS", "Invalid_Errror", _message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch(Exception ex) {
-			String _message = "Step:" + (counter++)
-					+ " FAILED- user failed to get the error message\nException Details:" + ex.getLocalizedMessage();
-			logger.info(_message);
-			HTMLReportGenerator.StepDetails("FAIL", "Invalid_Errror", _message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-			Assert.assertTrue(false);
-		}
-	}
 
 }

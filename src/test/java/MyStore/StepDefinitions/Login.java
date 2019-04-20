@@ -64,8 +64,8 @@ public class Login {
 	public void OpenBrowser1(String URL) throws IOException {
 		
 		GeckoConfiguration.driver.get(URL);
-//		GeckoConfiguration.driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-		GeckoConfiguration.wait = new WebDriverWait(GeckoConfiguration.driver, 30);
+		GeckoConfiguration.driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+//		GeckoConfiguration.driver.wait = new WebDriverWait(baseclass.driver, 30);
 		GeckoConfiguration.driver.manage().window().maximize();
 		
 //		baseclass.driver.get(URL);	 

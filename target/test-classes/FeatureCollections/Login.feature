@@ -29,7 +29,6 @@ Feature: Login Feature
     And user enters AliasAddress as "Test Address"
     And user clicks on Register button
     Then user lands on the MyAccount page
-    And user signs off
 
   @ST
   Scenario: Register a user with invalid email address
@@ -39,6 +38,7 @@ Feature: Login Feature
     And user clicks on Create an account button
     Then user receives an errormessage saying "Invalid email address."
 
+
   @SmokeTest
   Scenario Outline: Login to the application with multiple set of users
     Given user is on the application login page
@@ -46,13 +46,15 @@ Feature: Login Feature
     And user enters an "<emailaddress>" and "<password>" on already registered section
     And user clicks on SignIn button
     Then user lands on the MyAccount page
-    And user signs off    
-    Examples:    
+    
+    Examples:
+    
      | emailaddress         | | password    |
      | testuser04@gmail.com | | windows@123 |
      | testuser05@gmail.com | | windows@123 |
      | testuser06@gmail.com | | windows@123 |
-            
+    
+        
   @ST
   Scenario: Verify that the Summer Dresses mega menu works
     Given user is on the application login page
@@ -63,5 +65,4 @@ Feature: Login Feature
     And user clicks on Dresses mega menu
     And user clicks on Summer Dresses mega menu
     Then Summer Dresses page opens with text as "SUMMER DRESSES "
-    And user signs off
   
