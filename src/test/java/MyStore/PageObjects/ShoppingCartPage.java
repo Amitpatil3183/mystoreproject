@@ -13,7 +13,7 @@ public class ShoppingCartPage {
 	public ShoppingCartPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		this.localdriverobject=driver;
-		System.out.println("INSIDE MyAccountsPage CONSTRUCTOR");
+		System.out.println("INSIDE ShoppingCart CONSTRUCTOR");
 		
 	}
 	
@@ -27,4 +27,23 @@ public class ShoppingCartPage {
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'There is 1 item in your cart.')]")
 	public WebElement ItemAddConformPopup;
 
+	@FindBy(how = How.XPATH, using = "//span[@title='Close window']")
+	public WebElement CancelOnPopup;
+	
+	@FindBy(how = How.XPATH, using = "//a[@title='View my shopping cart']")
+	public WebElement MiniShoppingCart;
+	
+	@FindBy(how = How.XPATH, using = "//a[@class='ajax_cart_block_remove_link']")
+	public WebElement MiniShoppingCartRemove;
+	
+	@FindBy(how = How.XPATH, using = "//p[@class='alert alert-warning']")
+	public WebElement ShoppingCartEmptyMessage;
+	
+	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Proceed to checkout')]")
+	public WebElement ProceedToCheckout;
+	
+	@FindBy(how = How.XPATH, using = "//i[@class='icon-trash']")
+	public WebElement DeleteItemButton;
+	
+	
 }

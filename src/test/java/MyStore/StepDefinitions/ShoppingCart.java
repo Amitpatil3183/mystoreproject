@@ -73,16 +73,16 @@ public class ShoppingCart {
 
 		
 		@Then("^A popup message saying \"(.*)\" is displayed to the user$")
-		public void VerifyItemAddPopup(String expectedpopupmessage) throws IOException {
+		public void VerifyItemAddPopup(String ExpectedPopupMessage) throws IOException {
 			
 			try {
 				Thread.sleep(1000);
-				String actualpopupmessage = GeckoConfiguration.driver.switchTo().alert().getText();
+				String ActualPopupMessage = GeckoConfiguration.driver.switchTo().alert().getText();
 				String message = "Step:"+(counter++)+"PASSED- user clicks on Add to Cart buttom";
-				System.out.println(actualpopupmessage);
+				System.out.println(ActualPopupMessage);
 				logger.info(message);
 				Thread.sleep(1000);
-			    Assert.assertEquals(expectedpopupmessage, actualpopupmessage);
+			    Assert.assertEquals(ExpectedPopupMessage, ActualPopupMessage);
 				HTMLReportGenerator.StepDetails("PASS", "VerifyItemAddPopup", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			}
 			catch(Exception ex) {
@@ -92,4 +92,150 @@ public class ShoppingCart {
 				Assert.assertTrue(false);
 			}
 		}
+		
+		
+		@And("^user click on the cancel button on the popup$")
+		public void ClickCancelOnPopup() throws IOException {
+			
+			try {
+				Thread.sleep(1000);
+				shoppingcartpageobj.CancelOnPopup.click();
+				String message = "Step:"+(counter++)+"PASSED- user click on the cancel button on the popup";
+				logger.info(message);
+				Thread.sleep(1000);
+			  	HTMLReportGenerator.StepDetails("PASS", "ClickCancelOnPopup", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			}
+			catch(Exception ex) {
+				String message = "Step:" + (counter++)+ " FAILED- user failed to click on the cancel button on the popup\nException Details:" + ex.getLocalizedMessage();
+				logger.info(message);
+				HTMLReportGenerator.StepDetails("FAIL", "ClickCancelOnPopup", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+				Assert.assertTrue(false);
+			}
+		}
+		
+		
+		
+		@And("^user hover on the mini shopping cart menu$")
+		public void HoverOnMiniShoppingCart() throws IOException {
+			
+			try {
+				Thread.sleep(1000);
+				Actions action = new Actions(GeckoConfiguration.driver);
+				action.moveToElement(shoppingcartpageobj.MiniShoppingCart).build().perform();
+				String message = "Step:"+(counter++)+"PASSED- user hover on the mini shopping cart menu";
+				logger.info(message);
+				Thread.sleep(1000);
+			  	HTMLReportGenerator.StepDetails("PASS", "HoverOnMiniShoppingCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			}
+			catch(Exception ex) {
+				String message = "Step:" + (counter++)+ " FAILED- user failed to hover on the mini shopping cart menu\nException Details:" + ex.getLocalizedMessage();
+				logger.info(message);
+				HTMLReportGenerator.StepDetails("FAIL", "HoverOnMiniShoppingCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+				Assert.assertTrue(false);
+			}
+		}
+		
+		
+		@And("^user removes the Item from the cart$")
+		public void RemoveItemFromMiniCart() throws IOException {
+			
+			try {
+				Thread.sleep(1000);
+				shoppingcartpageobj.MiniShoppingCartRemove.click();
+				String message = "Step:"+(counter++)+"PASSED- user removes the Item from the cart successfully";
+				logger.info(message);
+				Thread.sleep(1000);
+			  	HTMLReportGenerator.StepDetails("PASS", "RemoveItemFromMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			}
+			catch(Exception ex) {
+				String message = "Step:" + (counter++)+ " FAILED- user failed to remove the Item from the cart\nException Details:" + ex.getLocalizedMessage();
+				logger.info(message);
+				HTMLReportGenerator.StepDetails("FAIL", "RemoveItemFromMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+				Assert.assertTrue(false);
+			}
+		}
+		
+		
+		@And("^user clicks on the mini Shopping Cart menu$")
+		public void ClickOnMiniCart() throws IOException {
+			
+			try {
+				Thread.sleep(1000);
+				shoppingcartpageobj.ItemSelection.click();
+				String message = "Step:"+(counter++)+"PASSED- user clicks on the mini Shopping Cart menu";
+				logger.info(message);
+				Thread.sleep(1000);
+			  	HTMLReportGenerator.StepDetails("PASS", "ClickOnMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			}
+			catch(Exception ex) {
+				String message = "Step:" + (counter++)+ " FAILED- user failed to click on the mini Shopping Cart menu\nException Details:" + ex.getLocalizedMessage();
+				logger.info(message);
+				HTMLReportGenerator.StepDetails("FAIL", "ClickOnMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+				Assert.assertTrue(false);
+			}
+		}
+		
+		
+
+		@Then( "\"(.*)\" message is displayed to the user$")
+		public void VerifyShoppingCartEmptyMessage(String ExpectedMessage) throws IOException {
+			
+			try {
+				Thread.sleep(1000);
+				String ActualMessage = shoppingcartpageobj.ShoppingCartEmptyMessage.getText(); 
+				String message = "Step:"+(counter++)+"PASSED- ShoppingCart empty message displayd to the user";
+				System.out.println(ActualMessage);
+				logger.info(message);
+				Thread.sleep(1000);
+				Assert.assertEquals(ExpectedMessage, ActualMessage);
+			  	HTMLReportGenerator.StepDetails("PASS", "ClickOnMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			}
+			catch(Exception ex) {
+				String message = "Step:" + (counter++)+ " FAILED- user failed to click on the mini Shopping Cart menu\nException Details:" + ex.getLocalizedMessage();
+				logger.info(message);
+				HTMLReportGenerator.StepDetails("FAIL", "ClickOnMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+				Assert.assertTrue(false);
+			}
+		}
+		
+		@And("^clicks on the Proceed to Checkout button$")
+		public void ClickOnProceedToCheckout() throws IOException {
+			
+			try {
+				Thread.sleep(1000);
+				shoppingcartpageobj.ProceedToCheckout.click();
+				String message = "Step:"+(counter++)+"PASSED- user clicks on the Proceed to Checkout button";
+				logger.info(message);
+				Thread.sleep(1000);
+			  	HTMLReportGenerator.StepDetails("PASS", "ClickOnProceedToCheckout", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			}
+			catch(Exception ex) {
+				String message = "Step:" + (counter++)+ " FAILED- user failed to click on the Proceed to Checkout button\nException Details:" + ex.getLocalizedMessage();
+				logger.info(message);
+				HTMLReportGenerator.StepDetails("FAIL", "ClickOnProceedToCheckout", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+				Assert.assertTrue(false);
+			}
+		}
+		
+		@Then( "\"(.*)\" message is displayed to the user$")
+		public void VerifyShoppingCartEmptyMessageMainCart(String ExpectedMessage) throws IOException {
+			
+			try {
+				Thread.sleep(1000);
+				String ActualMessage = shoppingcartpageobj.ShoppingCartEmptyMessage.getText(); 
+				String message = "Step:"+(counter++)+"PASSED- ShoppingCart empty message displayd to the user";
+				System.out.println(ActualMessage);
+				logger.info(message);
+				Thread.sleep(1000);
+				Assert.assertEquals(ExpectedMessage, ActualMessage);
+			  	HTMLReportGenerator.StepDetails("PASS", "ClickOnMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			}
+			catch(Exception ex) {
+				String message = "Step:" + (counter++)+ " FAILED- user failed to click on the mini Shopping Cart menu\nException Details:" + ex.getLocalizedMessage();
+				logger.info(message);
+				HTMLReportGenerator.StepDetails("FAIL", "ClickOnMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+				Assert.assertTrue(false);
+			}
+		}
+		
 }
