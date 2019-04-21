@@ -2,7 +2,7 @@
 #Keywords Summary :
 #Feature: List of scenarios for Shopping Cart feature.
 #Date Created: 18/4/2019
-@MyAccount
+@ShoppingCart
 Feature: Shopping Cart
 
   Background: user is successfully logged in

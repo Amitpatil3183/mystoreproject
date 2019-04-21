@@ -1,9 +1,9 @@
 #Author: Amit Patil
 #Keywords Summary :
-#Feature: List of scenarios for Shopping Cart feature.
-#Date Created: 18/4/2019
-@MyAccount
-Feature: Shopping Cart
+#Feature: List of scenarios for Items feature.
+#Date Created: 21/4/2019
+@Items
+Feature: Items
 
   Background: user is successfully logged in
     Given user opens the "chrome" browser
