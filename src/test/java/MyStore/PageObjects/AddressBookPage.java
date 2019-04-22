@@ -48,6 +48,9 @@ public class AddressBookPage {
 	@FindBy(how = How.XPATH, using = "//input[@id='phone_mobile']")
 	public WebElement AddressSave;
 	
+	@FindBy(how = How.XPATH, using = "//h1[@class='page-heading']")
+	public WebElement MyAddressesText;
+	
 	
 	
 	

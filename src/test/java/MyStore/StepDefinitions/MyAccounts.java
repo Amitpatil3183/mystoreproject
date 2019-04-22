@@ -38,15 +38,12 @@ public class MyAccounts {
 			myaccountpageobj.email_Address_Text_Box.sendKeys(emailAddress);
 			String message = "Step:"+(counter++)+"PASSED- user enters email id";
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("PASS", "existingUserEmailAddress", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("PASS", "existingUserEmailAddress", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
-			String message = "Step:" + (counter++) + " FAILED- user filed to enter email id\nException Details:"
-					+ ex.getLocalizedMessage();
+			String message = "Step:" + (counter++) + " FAILED- user filed to enter email id\nException Details:"+ ex.getLocalizedMessage();
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("FAIL", "existingUserEmailAddress", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("FAIL", "existingUserEmailAddress", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -59,15 +56,12 @@ public class MyAccounts {
 			myaccountpageobj.password_Text_Box.sendKeys(password);
 			String message = "Step:"+(counter++)+"PASSED- user enters password";
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("PASS", "existingUserPassword", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("PASS", "existingUserPassword", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
-			String message = "Step:" + (counter++) + " FAILED- user filed to enter password\nException Details:"
-					+ ex.getLocalizedMessage();
+			String message = "Step:" + (counter++) + " FAILED- user filed to enter password\nException Details:"+ ex.getLocalizedMessage();
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("FAIL", "existingUserPassword", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("FAIL", "existingUserPassword", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -82,15 +76,12 @@ public class MyAccounts {
 			//loginpageobj.signin_button.click();
 			String message = "Step:"+(counter++)+"PASSED- user clicks on SignIn Button";
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("PASS", "clickOnSignInButton", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("PASS", "clickOnSignInButton", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
-			String message = "Step:" + (counter++) + " FAILED- user filed click Sign In button\nException Details:"
-					+ ex.getLocalizedMessage();
+			String message = "Step:" + (counter++) + " FAILED- user filed click Sign In button\nException Details:" + ex.getLocalizedMessage();
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("FAIL", "clickOnSignInButton", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("FAIL", "clickOnSignInButton", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -104,16 +95,13 @@ public class MyAccounts {
 			Thread.sleep(1000);
 			String message = "Step:"+(counter++)+"PASSED- user clicks on Dresses Mega Menu";
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("PASS", "clickOnDressesMegaMenu", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("PASS", "clickOnDressesMegaMenu", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		}
 		catch(Exception ex) {
 			String message = "Step:" + (counter++)
-					+ " FAILED- user failed to click on Dresses Mega Menu\nException Details:"
-					+ ex.getLocalizedMessage();
+					+ " FAILED- user failed to click on Dresses Mega Menu\nException Details:" + ex.getLocalizedMessage();
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("FAIL", "clickOnDressesMegaMenu", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("FAIL", "clickOnDressesMegaMenu", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -174,8 +162,7 @@ public class MyAccounts {
 			Thread.sleep(2000);
 			String message = "Step:" + (counter++) + "PASSED- user selects " + sortBy + " value";
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("PASS", "selectSortByValue", message,
-					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("PASS", "selectSortByValue", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 		} catch (Exception ex) {
 			String message = "Step:" + (counter++) + " FAILED- user failed select the SortBy Value\nException Details:"
 					+ ex.getLocalizedMessage();

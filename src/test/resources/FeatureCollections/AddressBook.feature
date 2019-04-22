@@ -23,8 +23,8 @@ Feature: Address Book feature
     And user selects City as "Pune"
     And user selects State as "Alaska"
     And user enters Zip/Postal Code as "12345"
-    And user enters Home phone Code as "545454545"
-    And user enters Mobile phone Code as "989898989"
+    And user enters Home phone as "545454545"
+    And user enters Mobile phone as "989898989"
     And user clicks on the Save button
-    Then user navigates to the My Addresses page
+    Then user navigates to the My Addresses page and "My Addresses" text is displayed to the user"
      
