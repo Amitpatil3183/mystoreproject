@@ -1658,3 +1658,259 @@ Exception Details:null
 2019-04-20 15:55:21 INFO  Login:109 - Step:3 PASSED- user clicks on SignInLink
 2019-04-20 15:55:31 INFO  MyAccounts:84 - Step:1PASSED- user clicks on SignIn Button
 2019-04-20 15:55:33 INFO  Login:439 - Step:4 PASSED- user is on the MyAccountPage
+2019-05-01 12:27:05 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 12:27:13 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 12:27:18 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 12:27:25 INFO  Login:125 - Step:4 PASSED- user enter testb010ll4@gmail.com as email
+2019-05-01 12:27:26 INFO  Login:107 - Step:5 PASSED- user clicks on Create an account button
+2019-05-01 12:27:29 INFO  Login:144 - Step:6 PASSED- user clicks on Title
+2019-05-01 12:27:31 INFO  Login:164 - Step:7 PASSED- user enter Amit as firstname
+2019-05-01 12:27:32 INFO  Login:184 - Step:8 PASSED- user enter Patil as lastname
+2019-05-01 12:27:34 INFO  Login:204 - Step:9 PASSED- user enter windows@123 as password
+2019-05-01 12:27:35 INFO  Login:224 - Step:10 PASSED- user enter Yahoo as company
+2019-05-01 12:27:37 INFO  Login:244 - Step:11 PASSED- user enter First Lane Narhe as address
+2019-05-01 12:27:39 INFO  Login:264 - Step:12 PASSED- user enter Romulus as city
+2019-05-01 12:27:41 INFO  Login:286 - Step:13 PASSED- user selects City as Alabama
+2019-05-01 12:27:41 INFO  Login:304 - Step:14 PASSED- user enter 35006 as zip
+2019-05-01 12:27:43 INFO  Login:326 - Step:15 PASSED- user selects country as United States
+2019-05-01 12:27:44 INFO  Login:345 - Step:16 PASSED- user enter 9898989898 as mobile
+2019-05-01 12:27:46 INFO  Login:365 - Step:17 PASSED- user enter Test Address as aliasadd
+2019-05-01 12:27:51 INFO  Login:385 - Step:18 PASSED- user clicks on Register button
+2019-05-01 12:27:53 INFO  Login:406 - Step:19 PASSED- user is on the MyAccountPage
+2019-05-01 14:09:20 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 14:09:27 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 14:09:36 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 14:09:37 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 14:09:39 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 14:09:43 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 14:09:44 INFO  AddressBook:42 - Step:1 FAILED- user failed to click on View My Customer Account link
+Exception Details:null
+2019-05-01 14:14:14 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 14:14:20 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 14:14:31 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 14:14:33 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 14:14:34 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 14:14:40 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 14:14:42 INFO  AddressBook:61 - Step:1 FAILED- user failed to click on My Addresses menu
+Exception Details:null
+2019-05-01 14:28:07 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 14:28:14 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 14:28:19 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 14:28:21 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 14:28:23 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 14:28:27 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 14:28:28 INFO  AddressBook:80 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:null
+2019-05-01 14:37:13 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 14:37:20 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 14:37:24 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 14:37:26 INFO  MyAccounts:45 - Step:1 FAILED- user filed to enter email id
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 38 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57453}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir13296_22093}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 39507150576949120c9fac0bef05bb88
+*** Element info: {Using=xpath, value=//input[@id='email']}
+2019-05-01 14:39:22 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 14:39:29 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 14:39:37 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 14:39:39 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 14:39:41 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 14:39:49 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 14:39:51 INFO  AddressBook:84 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:null
+2019-05-01 14:42:17 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 14:42:24 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 14:42:45 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 14:42:47 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 14:42:49 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 14:42:56 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 14:42:58 INFO  AddressBook:84 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:null
+2019-05-01 14:50:40 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 14:50:47 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 14:50:53 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 14:50:56 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 14:50:57 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 14:51:04 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 14:51:06 INFO  AddressBook:84 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:null
+2019-05-01 15:24:20 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 15:24:27 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 15:24:36 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 15:24:38 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 15:24:39 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 15:24:44 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 15:24:46 INFO  AddressBook:85 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:null
+2019-05-01 15:29:58 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 15:30:05 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 15:30:11 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 15:30:13 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 15:30:14 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 15:30:20 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 15:30:21 INFO  AddressBook:86 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Add a new address')]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 41 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61074}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir7304_24078}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0565e0fc1ea1ff1cbc93b8e2256e7398
+*** Element info: {Using=xpath, value=//span[contains(text(),'Add a new address')]}
+2019-05-01 15:34:21 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 15:34:28 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 15:34:34 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 15:34:36 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 15:34:38 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 15:34:50 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 15:34:52 INFO  AddressBook:88 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Add a new address')]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61362}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir19204_29380}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c3e732a24ae9111fc421336617c40295
+*** Element info: {Using=xpath, value=//span[contains(text(),'Add a new address')]}
+2019-05-01 15:43:15 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 15:43:22 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 15:43:29 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 15:43:31 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 15:43:33 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 15:43:38 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 15:43:50 INFO  AddressBook:90 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Add a new address')]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:59672}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir19064_19732}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 60bc21f7ca69353d8c2ad330b1e35f17
+*** Element info: {Using=xpath, value=//span[contains(text(),'Add a new address')]}
+2019-05-01 17:10:26 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 17:10:33 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 17:10:39 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 17:10:41 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 17:10:43 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 17:10:47 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 17:10:59 INFO  AddressBook:90 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Add a new address')]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57928}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir12636_29983}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 487fbdd37ccdf0d241d540f3e017ab51
+*** Element info: {Using=xpath, value=//span[contains(text(),'Add a new address')]}
+2019-05-01 17:17:21 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 17:17:28 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 17:17:36 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 17:17:38 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 17:17:41 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 17:17:45 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 17:18:26 INFO  AddressBook:86 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Add a new address')]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.21 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58077}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir15244_26058}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5e99adfc24fde766689e9c0f31862148
+*** Element info: {Using=xpath, value=//span[contains(text(),'Add a new address')]}
+2019-05-01 17:22:32 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 17:22:39 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 17:22:45 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 17:22:47 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 17:22:49 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 17:22:53 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 17:36:45 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 17:36:53 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 17:37:00 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 17:37:02 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 17:37:04 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 17:37:09 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 17:37:21 INFO  AddressBook:91 - Step:1 FAILED- user failed to clicks on Add a new Addresses button
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Add a new address')]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58613}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir2688_31085}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 6d6a28a44ca91d6b1f7a60ad2cff3383
+*** Element info: {Using=xpath, value=//span[contains(text(),'Add a new address')]}
+2019-05-01 23:50:40 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 23:50:47 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 23:50:56 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 23:50:58 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 23:51:00 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 23:51:05 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 23:51:06 INFO  AddressBook:70 - Step:1 FAILED- user failed to click on My Addresses menu
+Exception Details:null
+2019-05-01 23:56:46 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-01 23:56:53 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-01 23:57:06 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-01 23:57:08 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-01 23:57:10 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-01 23:57:14 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-01 23:57:23 INFO  AddressBook:67 - Step:1PASSED- user clicks on clicks on My Addresses menu
+2019-05-01 23:57:35 INFO  AddressBook:93 - Step:2PASSED- user clicks on Add a new Addresses button
+2019-05-01 23:57:37 INFO  Login:245 - Step:4 PASSED- user enter Street 1 as address
+2019-05-01 23:57:38 INFO  Login:265 - Step:5 PASSED- user enter Romulus as city
+2019-05-01 23:57:40 INFO  Login:287 - Step:6 PASSED- user selects City as Alabama
+2019-05-01 23:57:41 INFO  Login:305 - Step:7 PASSED- user enter 35006 as zip
+2019-05-01 23:57:43 INFO  Login:327 - Step:8 PASSED- user selects country as United States
+2019-05-01 23:57:45 INFO  AddressBook:190 - Step:3PASSED- user enters Homephone
+2019-05-01 23:57:46 INFO  AddressBook:208 - Step:4PASSED- user enters Mobile Phone
+2019-05-01 23:57:48 INFO  AddressBook:225 - Step:5PASSED- user clicks on the Save button
+2019-05-02 00:03:15 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-02 00:03:22 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-02 00:03:27 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-02 00:03:29 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-02 00:03:31 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-02 00:03:35 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-02 00:03:48 INFO  AddressBook:67 - Step:1PASSED- user clicks on clicks on My Addresses menu
+2019-05-02 00:03:59 INFO  AddressBook:93 - Step:2PASSED- user clicks on Add a new Addresses button
+2019-05-02 00:04:01 INFO  Login:245 - Step:4 PASSED- user enter Street 1 as address
+2019-05-02 00:04:03 INFO  Login:265 - Step:5 PASSED- user enter Romulus as city
+2019-05-02 00:04:05 INFO  Login:287 - Step:6 PASSED- user selects City as Alabama
+2019-05-02 00:04:05 INFO  Login:305 - Step:7 PASSED- user enter 35006 as zip
+2019-05-02 00:04:07 INFO  Login:327 - Step:8 PASSED- user selects country as United States
+2019-05-02 00:04:09 INFO  AddressBook:190 - Step:3PASSED- user enters Homephone
+2019-05-02 00:04:11 INFO  AddressBook:208 - Step:4PASSED- user enters Mobile Phone
+2019-05-02 00:04:12 INFO  AddressBook:225 - Step:5PASSED- user clicks on the Save button
+2019-05-02 00:04:14 INFO  AddressBook:252 - Step:6 FAILED- user filed to navigate to the my adresss page
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='page-heading']"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 69 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-FOVU4HFP', ip: '192.168.100.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55437}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72), userDataDir=C:\Users\Amit\AppData\Local\Temp\scoped_dir4952_3554}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.103, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9cf5d8347f8ae2b70b5fd71dd1c9f8bd
+*** Element info: {Using=xpath, value=//h1[@class='page-heading']}

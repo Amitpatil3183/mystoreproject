@@ -13,7 +13,7 @@ Feature: Login Feature
   Scenario: Register a user with Valid email address
     Given user is on the application login page
     And user clicks on Sign in link
-    And user enters an email address as "testb0104@gmail.com"
+    And user enters an email address as "testb010ll4@gmail.com"
     And user clicks on Create an account button
     And user selects title as Mr.
     And user enters Customer FirstName as "Amit"
@@ -39,7 +39,7 @@ Feature: Login Feature
     Then user receives an errormessage saying "Invalid email address."
 
 
-  @SmokeTest
+  @ST
   Scenario Outline: Login to the application with multiple set of users
     Given user is on the application login page
     And user clicks on Sign in link

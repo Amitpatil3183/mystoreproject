@@ -42,7 +42,7 @@ Feature: Shopping Cart
     Then user clicks on the mini Shopping Cart menu
     Then "Your shopping cart is empty" message is displayed to the user
     
-    
+    @ST
     Scenario: Verify if delete the Items from the Shopping Cart
     Given user is on the application login page
     And user clicks on Sign in link

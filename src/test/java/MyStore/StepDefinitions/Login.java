@@ -16,7 +16,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.junit.Assert;
 
-
 import MyStore.PageObjects.LoginPage;
 import MyStore.PageObjects.MyAccountsPage;
 import MyStore.config.Config;
@@ -35,43 +34,23 @@ import cucumber.api.java.en.Then;
 public class Login {
 
 	LoginPage loginpageobj = null;
-//	public static WebDriver driver = null;
 	final static Logger logger = Logger.getLogger(Login.class);
 	int counter = 1;
-	MyAccountsPage myaccountpageobj=null;
+	MyAccountsPage myaccountpageobj = null;
 
-	@Given("^user opens the \"([^\"]*)\" browser$")
+	@Given("^user opens the \"(.*)\" browser$")
 	public void OpenBrowser(String BrowserName) {
-		
-		GeckoConfiguration.Geckotest(BrowserName);
-		
-//		if (BrowserName.equalsIgnoreCase("firefox")) {
-//			System.setProperty("webdriver.gecko.driver", "D:\\Users\\SSonawane\\geckoDriver\\geckodriver.exe");
-//			baseclass.driver = new FirefoxDriver();
-//			}                   
-//
-//		if (BrowserName.equalsIgnoreCase("chrome")) {
-//			System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\chromedriver.exe");
-//			baseclass.driver = new ChromeDriver();
-//			}
-//		if (BrowserName.equalsIgnoreCase("IE")) {
-//			System.setProperty("webdriver.ie.driver", "C:\\Program Files\\IEDriver\\IEDriverServer.exe");
-//			baseclass.driver = new InternetExplorerDriver();
-//			}
-		}
+
+	GeckoConfiguration.Geckotest(BrowserName);
+
+	}
 
 	@Given("^user enters the url \"(.*)\"$")
 	public void OpenBrowser1(String URL) throws IOException {
-		
+
 		GeckoConfiguration.driver.get(URL);
 		GeckoConfiguration.driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-//		GeckoConfiguration.driver.wait = new WebDriverWait(baseclass.driver, 30);
 		GeckoConfiguration.driver.manage().window().maximize();
-		
-//		baseclass.driver.get(URL);	 
-//		baseclass.driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
-//		baseclass.wait = new WebDriverWait(baseclass.driver, 30);
-//		baseclass.driver.manage().window().maximize();
 		String message = "Step:" + (counter++) + " PASSED: user enter the url as " + URL;
 		logger.info(message);
 		HTMLReportGenerator.StepDetails("PASS", "LaunchApplication", message,
@@ -87,8 +66,7 @@ public class Login {
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "LoginPage", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch (Exception ex) {
+		} catch (Exception ex) {
 			String message = "Step:" + (counter++)
 					+ " FAILED- user is NOT on the application login page\nException Details: "
 					+ ex.getLocalizedMessage();
@@ -98,7 +76,6 @@ public class Login {
 			Assert.assertTrue(false);
 		}
 	}
-
 
 	@And("^user clicks on Sign in link$")
 	public void SignInLink() throws IOException {
@@ -121,6 +98,7 @@ public class Login {
 
 	}
 
+	
 	@Given("^user clicks on Create an account button$")
 	public void clickOnCreateAnAccountButton() throws Exception {
 		try {
@@ -130,28 +108,25 @@ public class Login {
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "Create and account button", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch(Exception ex) {
+		} catch (Exception ex) {
 			String message = "Step:" + (counter++) + " FAILED- user failed to click on Create an account button";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "Create and account button", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-			Assert.assertTrue(false);				
+			Assert.assertTrue(false);
 		}
 	}
-
 
 	@And("^user enters an email address as \"(.*)\"$")
 	public void EnterEmail(String Email) throws IOException {
 		try {
 			Thread.sleep(6099);
-			loginpageobj.Create_Account_Email.sendKeys(Email);	
+			loginpageobj.Create_Account_Email.sendKeys(Email);
 			String message = "Step:" + (counter++) + " PASSED- user enter " + Email + " as email";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "EnterEmail", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		} 
-		catch (Exception e) {
+		} catch (Exception e) {
 			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "Email"
 					+ e.getLocalizedMessage();
 			logger.info(message);
@@ -170,8 +145,7 @@ public class Login {
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "Title", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		} 
-		catch (Exception e) {
+		} catch (Exception e) {
 			String message = "Step:" + (counter++) + " FAILED- user fails to select title as Mr. \nException Details:"
 					+ e.getLocalizedMessage();
 			logger.info(message);
@@ -191,8 +165,7 @@ public class Login {
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "FirstName", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "FirstName"
 					+ e.getLocalizedMessage();
 			logger.info(message);
@@ -207,7 +180,7 @@ public class Login {
 	public void EnterLastName(String LastName) throws IOException {
 		try {
 			Thread.sleep(1000);
-			loginpageobj.cust_last_name.sendKeys(LastName);	
+			loginpageobj.cust_last_name.sendKeys(LastName);
 			String message = "Step:" + (counter++) + " PASSED- user enter " + LastName + " as lastname";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "LastName", message,
@@ -227,26 +200,27 @@ public class Login {
 	public void EnterPassword(String Password) throws IOException {
 		try {
 			Thread.sleep(1000);
-			loginpageobj.password.sendKeys(Password);	
+			loginpageobj.password.sendKeys(Password);
 			String message = "Step:" + (counter++) + " PASSED- user enter " + Password + " as password";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "EnterPassword", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch (Exception e) {
-			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "Password" + e.getLocalizedMessage();
+		} catch (Exception e) {
+			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "Password"
+					+ e.getLocalizedMessage();
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("FAIL", "EnterPassword", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("FAIL", "EnterPassword", message,
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			e.printStackTrace();
 			Assert.assertTrue(false);
 		}
 	}
 
 	@And("^user enters Company as \"(.*)\"$")
-	public void EnterCompany(String Company) throws IOException {				
+	public void EnterCompany(String Company) throws IOException {
 		try {
 			Thread.sleep(1000);
-			loginpageobj.company.sendKeys(Company);	
+			loginpageobj.company.sendKeys(Company);
 			String message = "Step:" + (counter++) + " PASSED- user enter " + Company + " as company";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "EnterCompany", message,
@@ -282,7 +256,6 @@ public class Login {
 		}
 	}
 
-
 	@And("^user enters City as \"(.*)\"$")
 	public void Enter_City(String City) throws IOException {
 		try {
@@ -304,18 +277,17 @@ public class Login {
 	}
 
 	@And("^user selects State as \"(.*)\"$")
-	public void SelectState(String State) throws InterruptedException, IOException{
+	public void SelectState(String State) throws InterruptedException, IOException {
 		try {
 			Thread.sleep(1000);
-			Select _state = new Select (loginpageobj.state);
+			Select _state = new Select(loginpageobj.state);
 			_state.selectByVisibleText(State);
 			loginpageobj.state.sendKeys(Keys.TAB);
-			String message = "Step:"+(counter++)+" PASSED- user selects City as "+State;
+			String message = "Step:" + (counter++) + " PASSED- user selects City as " + State;
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "SelectState", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch(Exception ex) {
+		} catch (Exception ex) {
 			String message = "Step:" + (counter++) + " PASSED- user selects City as " + State + "\nException Details:"
 					+ ex.getLocalizedMessage();
 			logger.info(message);
@@ -333,8 +305,7 @@ public class Login {
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "Enter_ZipCode", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "ZipCode"
 					+ e.getLocalizedMessage();
 			logger.info(message);
@@ -346,18 +317,17 @@ public class Login {
 	}
 
 	@And("^user selects Country as \"(.*)\"$")
-	public void SelectCountry(String Country) throws InterruptedException, IOException{
+	public void SelectCountry(String Country) throws InterruptedException, IOException {
 		try {
 			Thread.sleep(1000);
-			Select _country = new Select (loginpageobj.country);
+			Select _country = new Select(loginpageobj.country);
 			_country.selectByVisibleText(Country);
 			loginpageobj.country.sendKeys(Keys.TAB);
-			String message = "Step:"+(counter++)+" PASSED- user selects country as "+Country;
+			String message = "Step:" + (counter++) + " PASSED- user selects country as " + Country;
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "SelectCountry", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch(Exception ex) {
+		} catch (Exception ex) {
 			String message = "Step:" + (counter++) + " PASSED- user selects country as " + Country
 					+ "\nException Details:" + ex.getLocalizedMessage();
 			logger.info(message);
@@ -368,7 +338,7 @@ public class Login {
 	}
 
 	@And("^user enters Mobile as \"(.*)\"$")
-	public void Enter_Mobile(String Mobile) throws IOException{
+	public void Enter_Mobile(String Mobile) throws IOException {
 		try {
 			Thread.sleep(1000);
 			loginpageobj.mobile_phone.sendKeys(Mobile);
@@ -376,9 +346,9 @@ public class Login {
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "Enter_Mobile", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch (Exception e) {
-			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "mobile" + e.getLocalizedMessage();
+		} catch (Exception e) {
+			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "mobile"
+					+ e.getLocalizedMessage();
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("FAIL", "Enter_Mobile", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
@@ -396,8 +366,7 @@ public class Login {
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "Enter_Alias_Address", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "aliasadd"
 					+ e.getLocalizedMessage();
 			logger.info(message);
@@ -417,8 +386,7 @@ public class Login {
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "Register_button", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			String message = "Step:" + (counter++)
 					+ " FAILED- user is failed to click on Register button\nException Details:"
 					+ e.getLocalizedMessage();
@@ -434,13 +402,12 @@ public class Login {
 	public void MyAccount() throws IOException {
 		try {
 			Thread.sleep(1000);
-			myaccountpageobj=new MyAccountsPage(GeckoConfiguration.driver);
-			String message = "Step:"+(counter++)+" PASSED- user is on the MyAccountPage";
+			myaccountpageobj = new MyAccountsPage(GeckoConfiguration.driver);
+			String message = "Step:" + (counter++) + " PASSED- user is on the MyAccountPage";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "MyAccount", message,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch(Exception ex) {
+		} catch (Exception ex) {
 			String message = "Step:" + (counter++) + " FAILED- user is on the MyAccountPage\nException Details:"
 					+ ex.getLocalizedMessage();
 			logger.info(message);
@@ -454,16 +421,15 @@ public class Login {
 	public void Invalid_Errror(String errormessage) throws IOException {
 		try {
 			Thread.sleep(2000);
-			String errormsg =loginpageobj.invalidEmail_error.getText();
+			String errormsg = loginpageobj.invalidEmail_error.getText();
 			Assert.assertEquals(errormessage, errormsg);
-			System.out.println(errormsg+" --------------------");
+			System.out.println(errormsg + " --------------------");
 			String _message = "Step:" + (counter++) + " PASSED- user gets error message starting with " + errormsg
 					+ " message above the login frame";
 			logger.info(_message);
 			HTMLReportGenerator.StepDetails("PASS", "Invalid_Errror", errormsg,
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch(Exception ex) {
+		} catch (Exception ex) {
 			String _message = "Step:" + (counter++)
 					+ " FAILED- user failed to get the error message\nException Details:" + ex.getLocalizedMessage();
 			logger.info(_message);
@@ -474,19 +440,20 @@ public class Login {
 	}
 
 	@And("^user enters an \"(.*)\" and \"(.*)\" on already registered section$")
-	public void EnterUsrnameandPassword(String  emailaddress, String  password) throws IOException {
+	public void EnterUsrnameandPassword(String emailaddress, String password) throws IOException {
 		try {
 			Thread.sleep(1000);
-			//for (Map<String, String> data : credentials.asMaps(String.class, String.class)) {
-									
-			//loginpageobj.signin_email.sendKeys(data.get("emailaddress"));
-			//loginpageobj.password.sendKeys(data.get("password"));
-			
+			// for (Map<String, String> data : credentials.asMaps(String.class,
+			// String.class)) {
+
+			// loginpageobj.signin_email.sendKeys(data.get("emailaddress"));
+			// loginpageobj.password.sendKeys(data.get("password"));
+
 			loginpageobj.signin_email.sendKeys(emailaddress);
 			loginpageobj.password.sendKeys(password);
-			
+
 		}
-		
+
 		catch (Exception e) {
 			String message = "Step:" + (counter++) + " FAILED- user Failed to enter " + "Email"
 					+ e.getLocalizedMessage();
@@ -495,17 +462,14 @@ public class Login {
 					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
-	
-	
+
 	}
-	
-	
-		
+
 	@Before()
-	public void BeforeEveryScenario(Scenario scenario) throws UnknownHostException{
+	public void BeforeEveryScenario(Scenario scenario) throws UnknownHostException {
 		counter = 1;
-		if(Config.listofsuite==null){
-			Config.listofsuite=scenario.getSourceTagNames();
+		if (Config.listofsuite == null) {
+			Config.listofsuite = scenario.getSourceTagNames();
 			HTMLReportGenerator.TestSuiteStart("C:\\SeleniumResources\\HTMLReportGenResults\\smoke.html", "Test1");
 		}
 		HTMLReportGenerator.TestSuiteStart("C:\\SeleniumResources\\HTMLReportGenResults\\smoke.html", "Amit");

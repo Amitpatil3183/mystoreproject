@@ -16,6 +16,7 @@ public class AddressBookPage {
 		this.localdriverobject=driver;
 		System.out.println("INSIDE Address Book CONSTRUCTOR");
 
+		
 }
 	
 	@FindBy(how = How.XPATH, using = "//a[@title='View my customer account']")
@@ -51,9 +52,5 @@ public class AddressBookPage {
 	@FindBy(how = How.XPATH, using = "//h1[@class='page-heading']")
 	public WebElement MyAddressesText;
 	
-	
-	
-	
-	
-	
+		
 }

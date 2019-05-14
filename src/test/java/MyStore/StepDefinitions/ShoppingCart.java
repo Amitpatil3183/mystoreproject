@@ -177,26 +177,25 @@ public class ShoppingCart {
 		
 		
 
-		@Then( "\"(.*)\" message is displayed to the user$")
-		public void VerifyShoppingCartEmptyMessage(String ExpectedMessage) throws IOException {
-			
-			try {
-				Thread.sleep(1000);
-				String ActualMessage = shoppingcartpageobj.ShoppingCartEmptyMessage.getText(); 
-				String message = "Step:"+(counter++)+"PASSED- ShoppingCart empty message displayd to the user";
-				System.out.println(ActualMessage);
-				logger.info(message);
-				Thread.sleep(1000);
-				Assert.assertEquals(ExpectedMessage, ActualMessage);
-			  	HTMLReportGenerator.StepDetails("PASS", "ClickOnMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-			}
-			catch(Exception ex) {
-				String message = "Step:" + (counter++)+ " FAILED- user failed to click on the mini Shopping Cart menu\nException Details:" + ex.getLocalizedMessage();
-				logger.info(message);
-				HTMLReportGenerator.StepDetails("FAIL", "ClickOnMiniCart", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-				Assert.assertTrue(false);
-			}
-		}
+	/*
+	 * @Then( "\"(.*)\" message is displayed to the user$") public void
+	 * VerifyShoppingCartEmptyMessaget(String ExpectedMessage) throws IOException {
+	 * 
+	 * try { Thread.sleep(1000); String ActualMessage =
+	 * shoppingcartpageobj.ShoppingCartEmptyMessage.getText(); String message =
+	 * "Step:"+(counter++)+"PASSED- ShoppingCart empty message displayd to the user"
+	 * ; System.out.println(ActualMessage); logger.info(message);
+	 * Thread.sleep(1000); Assert.assertEquals(ExpectedMessage, ActualMessage);
+	 * HTMLReportGenerator.StepDetails("PASS", "ClickOnMiniCart",
+	 * message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(),
+	 * GeckoConfiguration.driver)); } catch(Exception ex) { String message = "Step:"
+	 * + (counter++)+
+	 * " FAILED- user failed to click on the mini Shopping Cart menu\nException Details:"
+	 * + ex.getLocalizedMessage(); logger.info(message);
+	 * HTMLReportGenerator.StepDetails("FAIL", "ClickOnMiniCart",
+	 * message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(),
+	 * GeckoConfiguration.driver)); Assert.assertTrue(false); } }
+	 */
 		
 		@And("^clicks on the Proceed to Checkout button$")
 		public void ClickOnProceedToCheckout() throws IOException {
@@ -218,7 +217,7 @@ public class ShoppingCart {
 		}
 		
 		@Then( "\"(.*)\" message is displayed to the user$")
-		public void VerifyShoppingCartEmptyMessageMainCart(String ExpectedMessage) throws IOException {
+		public void VerifyShoppingCartEmptyMessageMainCart1(String ExpectedMessage) throws IOException {
 			
 			try {
 				Thread.sleep(1000);

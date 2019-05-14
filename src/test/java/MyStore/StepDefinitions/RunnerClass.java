@@ -12,6 +12,7 @@ import cucumber.api.junit.Cucumber;
 		tags = { "@SmokeTest" }
 //		dryRun = true
 		)
+
 public class RunnerClass {
 
 }

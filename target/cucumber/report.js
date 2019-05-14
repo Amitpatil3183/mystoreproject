@@ -1,76 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/FeatureCollections/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/FeatureCollections/AddressBook.feature");
 formatter.feature({
-  "name": "Login Feature",
+  "name": "Address Book feature",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@Login"
-    }
-  ]
-});
-formatter.scenarioOutline({
-  "name": "Login to the application with multiple set of users",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@SmokeTest"
-    }
-  ]
-});
-formatter.step({
-  "name": "user is on the application login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "user clicks on Sign in link",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user enters an \"\u003cemailaddress\u003e\" and \"\u003cpassword\u003e\" on already registered section",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user clicks on SignIn button",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "user lands on the MyAccount page",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "emailaddress",
-        "",
-        "password"
-      ]
-    },
-    {
-      "cells": [
-        "testuser04@gmail.com",
-        "",
-        "windows@123"
-      ]
-    },
-    {
-      "cells": [
-        "testuser05@gmail.com",
-        "",
-        "windows@123"
-      ]
-    },
-    {
-      "cells": [
-        "testuser06@gmail.com",
-        "",
-        "windows@123"
-      ]
+      "name": "@AddressBook"
     }
   ]
 });
@@ -103,12 +38,12 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Login to the application with multiple set of users",
+  "name": "Verify if user can create a new address",
   "description": "",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
-      "name": "@Login"
+      "name": "@AddressBook"
     },
     {
       "name": "@SmokeTest"
@@ -136,11 +71,21 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user enters an \"testuser04@gmail.com\" and \"windows@123\" on already registered section",
+  "name": "an existing user enters an email address as \"testuser04@gmail.com\"",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Login.EnterUsrnameandPassword(String,String)"
+  "location": "MyAccounts.existingUserEmailAddress(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "an existing user enters an password as \"windows@123\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "MyAccounts.existingUserPassword(String)"
 });
 formatter.result({
   "status": "passed"
@@ -156,202 +101,115 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user lands on the MyAccount page",
+  "name": "user clicks on My Addresses menu",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddressBook.clickOnMyAddressMenu()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on Add a new Addresses button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddressBook.clickOnAddNewAddressButton()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters Address as \"Street 1\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.EnterAddress(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters City as \"Romulus\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.Enter_City(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects State as \"Alabama\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.SelectState(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters ZipCode as \"35006\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.Enter_ZipCode(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user selects Country as \"United States\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "Login.SelectCountry(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters Homephone as \"545454545\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddressBook.EnterHomephone(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters Mobilephone as \"989898989\"",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddressBook.EnterMobilePhone(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user clicks on the Save button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddressBook.clickOnSaveAddress()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user navigates to the My Addresses page and \"My Addresses\" text is displayed to the user",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Login.MyAccount()"
+  "location": "AddressBook.MyAddressPageNavigation(String)"
 });
 formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "user is successfully logged in",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user opens the \"chrome\" browser",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Login.OpenBrowser(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters the url \"http://automationpractice.com/index.php\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Login.OpenBrowser1(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Login to the application with multiple set of users",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@Login"
-    },
-    {
-      "name": "@SmokeTest"
-    }
-  ]
-});
-formatter.step({
-  "name": "user is on the application login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Login.LoginPage()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on Sign in link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Login.SignInLink()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters an \"testuser05@gmail.com\" and \"windows@123\" on already registered section",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Login.EnterUsrnameandPassword(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on SignIn button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyAccounts.clickOnSignInButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user lands on the MyAccount page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Login.MyAccount()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "user is successfully logged in",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user opens the \"chrome\" browser",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Login.OpenBrowser(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters the url \"http://automationpractice.com/index.php\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Login.OpenBrowser1(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Login to the application with multiple set of users",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@Login"
-    },
-    {
-      "name": "@SmokeTest"
-    }
-  ]
-});
-formatter.step({
-  "name": "user is on the application login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "Login.LoginPage()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on Sign in link",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Login.SignInLink()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user enters an \"testuser06@gmail.com\" and \"windows@123\" on already registered section",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "Login.EnterUsrnameandPassword(String,String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user clicks on SignIn button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "MyAccounts.clickOnSignInButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "user lands on the MyAccount page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Login.MyAccount()"
-});
-formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat MyStore.StepDefinitions.AddressBook.MyAddressPageNavigation(AddressBook.java:254)\r\n\tat ✽.user navigates to the My Addresses page and \"My Addresses\" text is displayed to the user(src/test/resources/FeatureCollections/AddressBook.feature:31)\r\n",
+  "status": "failed"
 });
 formatter.after({
   "status": "passed"

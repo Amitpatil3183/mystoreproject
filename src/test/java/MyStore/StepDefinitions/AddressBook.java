@@ -1,11 +1,15 @@
 package MyStore.StepDefinitions;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import MyStore.PageObjects.AddressBookPage;
@@ -16,6 +20,7 @@ import MyStore.config.GeckoConfiguration;
 import MyStore.config.HTMLReportGenerator;
 import MyStore.config.TakeScreenShot;
 import cucumber.api.java.en.And;
+import cucumber.api.java.en.Then;
 
 public class AddressBook {
 	
@@ -26,39 +31,48 @@ public class AddressBook {
 	AddressBookPage addressbookobj = null;
 	
 	
-	@And ("^user clicks on View My Customer Account link$")
+	
+	@And("^user clicks on View My Customer Account link$")
 	public void clickOnMyCustomerAccountLink() throws IOException {
 		try {
 			Thread.sleep(1000);
+			addressbookobj = new AddressBookPage(GeckoConfiguration.driver);
 			addressbookobj.MyCustomerAccountLink.click();
-			String message = "Step:"+(counter++)+"PASSED- user clicks on View My Customer Account link";
+			String message = "Step:" + (counter++) + "PASSED- user clicks on View My Customer Account link";
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("PASS", "clickOnMyCustomerAccountLink", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch(Exception ex) {
-			String message = "Step:" + (counter++)+ " FAILED- user failed to click on View My Customer Account link\nException Details:"
+			HTMLReportGenerator.StepDetails("PASS", "clickOnMyCustomerAccountLink", message,
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			
+		} catch (Exception ex) {
+			String message = "Step:" + (counter++)
+					+ " FAILED- user failed to click on View My Customer Account link\nException Details:"
 					+ ex.getLocalizedMessage();
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("FAIL", "clickOnMyCustomerAccountLink", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("FAIL", "clickOnMyCustomerAccountLink", message,
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
-	
-	
-	@And ("^user clicks on My Addresses menu$")
+	  
+	  
+	@And("^user clicks on My Addresses menu$")
 	public void clickOnMyAddressMenu() throws IOException {
 		try {
 			Thread.sleep(1000);
+			addressbookobj = new AddressBookPage(GeckoConfiguration.driver);
+			Thread.sleep(5000);
 			addressbookobj.MyAddressesMenu.click();
-			String message = "Step:"+(counter++)+"PASSED- user clicks on clicks on My Addresses menu";
+			String message = "Step:" + (counter++) + "PASSED- user clicks on clicks on My Addresses menu";
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("PASS", "clickOnMyAddressMenu", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
-		}
-		catch(Exception ex) {
-			String message = "Step:" + (counter++)+ " FAILED- user failed to click on My Addresses menu\nException Details:"
+			HTMLReportGenerator.StepDetails("PASS", "clickOnMyAddressMenu", message,
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+		} catch (Exception ex) {
+			String message = "Step:" + (counter++)
+					+ " FAILED- user failed to click on My Addresses menu\nException Details:"
 					+ ex.getLocalizedMessage();
 			logger.info(message);
-			HTMLReportGenerator.StepDetails("FAIL", "clickOnMyAddressMenu", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			HTMLReportGenerator.StepDetails("FAIL", "clickOnMyAddressMenu", message,
+					TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
 			Assert.assertTrue(false);
 		}
 	}
@@ -68,7 +82,12 @@ public class AddressBook {
 	public void clickOnAddNewAddressButton() throws IOException {
 		try {
 			Thread.sleep(1000);
+			addressbookobj = new AddressBookPage(GeckoConfiguration.driver);
+			
 			addressbookobj.AddNewAddressesButton.click();
+			
+		 //addressbookobj.AddNewAddressesButton.click();
+			Thread.sleep(8000);
 			String message = "Step:"+(counter++)+"PASSED- user clicks on Add a new Addresses button";
 			logger.info(message);
 			HTMLReportGenerator.StepDetails("PASS", "clickOnAddNewAddressButton", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
@@ -84,7 +103,7 @@ public class AddressBook {
 	
 	
 	
-	@And ("^And user enters Address as \"([^\"]*)\"$")
+	@And ("^And user enters Address as \"(.*)\"$")
 	public void EnterFirstAddress(String address) throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -103,7 +122,7 @@ public class AddressBook {
 	}
 
 	
-	@And ("^And user enters City as \"([^\"]*)\"$")
+	@And ("^And user enters City as \"(.*)\"$")
 	public void EnterCity(String city) throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -122,7 +141,7 @@ public class AddressBook {
 	}
 	
 	
-	@And ("^And user enters State as \"([^\"]*)\"$")
+	@And ("^And user selects State as \"(.*)\"$")
 	public void EnterState(String state) throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -141,7 +160,7 @@ public class AddressBook {
 	}
 	
 	
-	@And ("^And user enters Zip/Postal as \"([^\"]*)\"$")
+	@And ("^And user enters ZipCode as \"(.*)\"$")
 	public void EnterZipCode(String zipcode) throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -160,7 +179,7 @@ public class AddressBook {
 	}
 	
 	
-	@And ("^And user enters Home phone as \"([^\"]*)\"$")
+	@And ("^user enters Homephone as \"(.*)\"$")
 	public void EnterHomephone(String Homephone) throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -178,7 +197,7 @@ public class AddressBook {
 		}
 	}
 	
-	@And ("^And user enters Mobile phone as \"([^\"]*)\"$")
+	@And ("^user enters Mobilephone as \"(.*)\"$")
 	public void EnterMobilePhone(String MobilePhone) throws IOException {
 		try {
 			Thread.sleep(1000);
@@ -215,14 +234,14 @@ public class AddressBook {
 	}
 	
 	
-	@And ("^user navigates to the My Addresses page and \"([^\\\"]*)\" text is displayed to the user$")
+	@Then("^user navigates to the My Addresses page and \"(.*)\" text is displayed to the user$")
 	public void MyAddressPageNavigation(String Extectedtext) throws IOException {
 		try {
 			Thread.sleep(1000);
 			addressbookobj=new AddressBookPage(GeckoConfiguration.driver);
 			//GeckoConfiguration.wait.until(ExpectedConditions.textToBePresentInElement(By.xpath(addressbookobj.MyAddressesText), "MY ADDRESSES"));
 			String ActualText = addressbookobj.MyAddressesText.getText();
-			String message = "Step:"+(counter++)+"PASSED- user navigates to the my adresss page";
+			String message = "Step:"+(counter++)+"PASSED- user navigates to the my adresss page and text is displayed to the user";
 			logger.info(message);
 			Assert.assertEquals(Extectedtext, ActualText);
 			HTMLReportGenerator.StepDetails("PASS", "MyAddressPageNavigation", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
