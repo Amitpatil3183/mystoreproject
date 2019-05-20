@@ -9,7 +9,7 @@ Feature: Shopping Cart
     Given user opens the "chrome" browser
     Given user enters the url "http://automationpractice.com/index.php"
     
-   @ST
+   @SmokeTest
   Scenario: Verify if user can add Items to the cart
     Given user is on the application login page
     And user clicks on Sign in link
@@ -23,7 +23,7 @@ Feature: Shopping Cart
     And user clicks on the Add to Cart button
     Then A popup message saying "There is 1 item in your cart" is displayed to the user
  
-    @ST
+    @SmokeTest
   Scenario: Verify if user can delete Items from the mini shopping cart
     Given user is on the application login page
     And user clicks on Sign in link
@@ -42,7 +42,7 @@ Feature: Shopping Cart
     Then user clicks on the mini Shopping Cart menu
     Then "Your shopping cart is empty" message is displayed to the user
     
-    @ST
+    @SmokeTest
     Scenario: Verify if delete the Items from the Shopping Cart
     Given user is on the application login page
     And user clicks on Sign in link
