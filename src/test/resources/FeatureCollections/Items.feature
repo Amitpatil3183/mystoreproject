@@ -9,7 +9,7 @@ Feature: Items
     Given user opens the "chrome" browser
     Given user enters the url "http://automationpractice.com/index.php"
     
-   @ST
+   @SmokeTest
   Scenario: Verify if user can search Item using searchbox & select
     Given user is on the application login page
     And user clicks on Sign in link
