@@ -2200,3 +2200,132 @@ Exception Details:null
 2019-05-20 18:47:05 INFO  MyAccounts:138 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
 2019-05-20 18:47:07 INFO  ShoppingCart:50 - Step:1 FAILED- user failed to click on clickOnSummerDressItem
 Exception Details:null
+2019-05-21 13:39:20 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:39:27 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:39:31 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:39:35 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-21 13:39:37 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-21 13:39:40 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-21 13:39:48 INFO  AddressBook:66 - Step:1PASSED- user clicks on clicks on My Addresses menu
+2019-05-21 13:39:59 INFO  AddressBook:92 - Step:2PASSED- user clicks on Add a new Addresses button
+2019-05-21 13:40:01 INFO  Login:245 - Step:4 PASSED- user enter Street 1 as address
+2019-05-21 13:40:03 INFO  Login:265 - Step:5 PASSED- user enter Romulus as city
+2019-05-21 13:40:06 INFO  Login:287 - Step:6 PASSED- user selects City as Alabama
+2019-05-21 13:40:07 INFO  Login:305 - Step:7 PASSED- user enter 35006 as zip
+2019-05-21 13:40:09 INFO  Login:327 - Step:8 PASSED- user selects country as United States
+2019-05-21 13:40:11 INFO  AddressBook:189 - Step:3PASSED- user enters Homephone
+2019-05-21 13:40:14 INFO  AddressBook:207 - Step:4PASSED- user enters Mobile Phone
+2019-05-21 13:40:15 INFO  AddressBook:224 - Step:5PASSED- user clicks on the Save button
+2019-05-21 13:40:17 INFO  AddressBook:251 - Step:6 FAILED- user filed to navigate to the my adresss page
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='page-heading']"}
+  (Session info: chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 88 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'IP-C613EA08', ip: '172.31.153.150', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57032}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=D:\Users\SSonawane\AppData\Local\Temp\1\scoped_dir6408_3604}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.157, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 71b76fa44145d2af0d12e517a205e952
+*** Element info: {Using=xpath, value=//h1[@class='page-heading']}
+2019-05-21 13:40:30 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:40:37 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:40:41 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:40:45 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-21 13:40:47 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-21 13:40:51 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-21 13:40:53 INFO  MyAccounts:97 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-05-21 13:40:57 INFO  MyAccounts:115 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:41:00 INFO  MyAccounts:138 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:41:02 INFO  ShoppingCart:44 - Step:1 FAILED- user failed to enter the text
+Exception Details:null
+2019-05-21 13:41:12 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:41:19 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:41:22 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:41:30 INFO  Login:126 - Step:4 PASSED- user enter testb010ll4@gmail.com as email
+2019-05-21 13:41:32 INFO  Login:108 - Step:5 PASSED- user clicks on Create an account button
+2019-05-21 13:41:35 INFO  Login:151 - Step:6 FAILED- user fails to select title as Mr. 
+Exception Details:no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=74.0.3729.157)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'IP-C613EA08', ip: '172.31.153.150', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:57149}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=D:\Users\SSonawane\AppData\Local\Temp\1\scoped_dir12208_15202}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.157, browserConnectionEnabled=false, proxy=Proxy(), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a1b5d6a8ec959e832d342331657569f4
+*** Element info: {Using=xpath, value=//input[@id='id_gender1']}
+2019-05-21 13:41:47 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:41:55 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:41:59 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:42:07 INFO  Login:126 - Step:4 PASSED- user enter testuser04@.com as email
+2019-05-21 13:42:09 INFO  Login:108 - Step:5 PASSED- user clicks on Create an account button
+2019-05-21 13:42:12 INFO  Login:429 - Step:6 PASSED- user gets error message starting with Invalid email address. message above the login frame
+2019-05-21 13:42:24 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:42:31 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:42:35 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:42:39 INFO  MyAccounts:78 - Step:1PASSED- user clicks on SignIn Button
+2019-05-21 13:42:41 INFO  Login:407 - Step:4 PASSED- user is on the MyAccountPage
+2019-05-21 13:42:47 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:42:54 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:42:58 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:43:04 INFO  MyAccounts:78 - Step:1PASSED- user clicks on SignIn Button
+2019-05-21 13:43:05 INFO  Login:407 - Step:4 PASSED- user is on the MyAccountPage
+2019-05-21 13:43:12 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:43:19 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:43:22 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:43:26 INFO  MyAccounts:78 - Step:1PASSED- user clicks on SignIn Button
+2019-05-21 13:43:28 INFO  Login:407 - Step:4 PASSED- user is on the MyAccountPage
+2019-05-21 13:43:36 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:43:43 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:43:46 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:43:48 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-21 13:43:49 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-21 13:43:53 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-21 13:43:55 INFO  MyAccounts:97 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-05-21 13:43:58 INFO  MyAccounts:115 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:44:00 INFO  MyAccounts:138 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:44:08 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:44:14 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:44:18 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:44:19 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-21 13:44:21 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-21 13:44:23 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-21 13:44:26 INFO  MyAccounts:97 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-05-21 13:44:29 INFO  MyAccounts:115 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:44:31 INFO  MyAccounts:138 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:44:36 INFO  MyAccounts:164 - Step:7PASSED- user selects Price: Lowest first value
+2019-05-21 13:44:45 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:44:52 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:44:56 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:44:57 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-21 13:44:59 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-21 13:45:03 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-21 13:45:05 INFO  MyAccounts:97 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-05-21 13:45:08 INFO  MyAccounts:115 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:45:11 INFO  MyAccounts:138 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:45:12 INFO  ShoppingCart:50 - Step:1 FAILED- user failed to click on clickOnSummerDressItem
+Exception Details:null
+2019-05-21 13:45:21 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:45:28 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:45:31 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:45:32 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-21 13:45:34 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-21 13:45:37 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-21 13:45:39 INFO  MyAccounts:97 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-05-21 13:45:44 INFO  MyAccounts:115 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:45:46 INFO  MyAccounts:138 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:45:48 INFO  ShoppingCart:50 - Step:1 FAILED- user failed to click on clickOnSummerDressItem
+Exception Details:null
+2019-05-21 13:45:56 INFO  Login:55 - Step:1 PASSED: user enter the url as http://automationpractice.com/index.php
+2019-05-21 13:46:03 INFO  Login:66 - Step:2 PASSED- user is on the application login page
+2019-05-21 13:46:06 INFO  Login:86 - Step:3 PASSED- user clicks on SignInLink
+2019-05-21 13:46:08 INFO  MyAccounts:40 - Step:1PASSED- user enters email id
+2019-05-21 13:46:10 INFO  MyAccounts:58 - Step:2PASSED- user enters password
+2019-05-21 13:46:13 INFO  MyAccounts:78 - Step:3PASSED- user clicks on SignIn Button
+2019-05-21 13:46:15 INFO  MyAccounts:97 - Step:4PASSED- user clicks on Dresses Mega Menu
+2019-05-21 13:46:18 INFO  MyAccounts:115 - Step:5PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:46:21 INFO  MyAccounts:138 - Step:6PASSED- user clicks on Summer Dresses Mega Menu
+2019-05-21 13:46:23 INFO  ShoppingCart:50 - Step:1 FAILED- user failed to click on clickOnSummerDressItem
+Exception Details:null

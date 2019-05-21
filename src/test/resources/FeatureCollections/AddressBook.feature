@@ -10,7 +10,7 @@ Feature: Address Book feature
     Given user enters the url "http://automationpractice.com/index.php"
 
 
-    @SmokeTest
+    @ST
     Scenario: Verify if user can create a new address
     Given user is on the application login page
     And user clicks on Sign in link

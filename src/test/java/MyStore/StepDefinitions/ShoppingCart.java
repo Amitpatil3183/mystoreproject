@@ -197,8 +197,27 @@ public class ShoppingCart {
 	 * GeckoConfiguration.driver)); Assert.assertTrue(false); } }
 	 */
 		
-		@And("^clicks on the Proceed to Checkout button$")
+		@And("^user clicks on the Proceed to Checkout button$")
 		public void ClickOnProceedToCheckout() throws IOException {
+			
+			try {
+				Thread.sleep(1000);
+				shoppingcartpageobj.ProceedToCheckout.click();
+				String message = "Step:"+(counter++)+"PASSED- user clicks on the Proceed to Checkout button";
+				logger.info(message);
+				Thread.sleep(1000);
+			  	HTMLReportGenerator.StepDetails("PASS", "ClickOnProceedToCheckout", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+			}
+			catch(Exception ex) {
+				String message = "Step:" + (counter++)+ " FAILED- user failed to click on the Proceed to Checkout button\nException Details:" + ex.getLocalizedMessage();
+				logger.info(message);
+				HTMLReportGenerator.StepDetails("FAIL", "ClickOnProceedToCheckout", message,TakeScreenShot.TakeScreenShot(Config.getImageFilePath(), GeckoConfiguration.driver));
+				Assert.assertTrue(false);
+			}
+		}
+		
+		@And("^user clicks on the delete icon$")
+		public void ClickDelete() throws IOException {
 			
 			try {
 				Thread.sleep(1000);
