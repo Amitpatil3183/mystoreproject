@@ -20,7 +20,7 @@ public class ShoppingCartPage {
 	
 	@FindBy(how = How.XPATH, using = "//li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 last-line last-item-of-tablet-line last-mobile-line hovered']//span[contains(text(),'Quick view')]")
 	public WebElement ItemSelection;
-	
+
 	@FindBy(how = How.XPATH, using = "//span[contains(text(),'Add to cart')]")
 	public WebElement AddToCartButton;
 	
