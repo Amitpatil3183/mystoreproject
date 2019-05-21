@@ -56,7 +56,7 @@ Feature: Shopping Cart
     And user clicks on the Add to Cart button
     Then A popup message saying "There is 1 item in your cart" is displayed to the user
     And user clicks on the Proceed to Checkout button
-    And user clicks on the delete Icon 
+    And user clicks on the trash icon 
     Then "Your shopping cart is empty" message is displayed to the user
     
     
